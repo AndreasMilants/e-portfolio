@@ -1,0 +1,103 @@
+{
+  "about": {
+    "title": "About me",
+    "pOne": "I am Andreas Milants and I am a student Applied Information Technology at University College Leuven-Limburg.",
+    "pTwo": "Most of my spare time is spent making lots of different applications. These range from making a simple website to working with Neural Networks.",
+    "pThree": "The time that I've got left, I spend on my two hobbies. Chiro and football. I've been monitor at Chiro Nemas Binkom since 2015 and since 2018 I am head monitor."
+  },
+  "competences": {
+    "title": "Competences",
+    "backend_dev": "Backend webdevelopment",
+    "frontend_dev": "Frontend webdevelopment",
+    "app_dev": "App development",
+    "algo": "Algorithms & Datastructures",
+    "databases": "Databases",
+    "second_place": "Second place \"Vlaamse Programmeerwedstrijd\""
+  },
+  "navigation": {
+    "about": "About me",
+    "competences": "Competences",
+    "projects": "Projects",
+    "resume": "Resume"
+  },
+  "projects": {
+    "title": "Projects",
+    "abc_cooking": {
+      "pOne": "In October 2019 I participated in a hackathon organised by IBM. The business case was to make a standalone Apple Watch app. We built an app that you could use to find out ingredients for a dish and help you prepare it.",
+      "pTwo": "You could choose dishes from an online database and the app would help you through the entire process. You'd start with buying the ingredients and end with your prepared meal.",
+      "pThree": "To choose a dish, you could speak to your watch and after that, with the help of the Watson API, we determined what it was you wanted to prepare and for how many people.",
+      "pFour": "The name ABC-Cooking is an acronym for Appetite, Buy, Cook. When you decide you have an appetite, you choose a dish. The app would then lead you to the buy stage and eventually help you cook your meal."
+    },
+    "arnecrush": {
+      "pOne": "Arnecrush is a passion-project I made in my first year of Applied Information Technology. It was a website where my fellow students could play games. The goal was to get as many in-game assets that were based on teachers.",
+      "pTwo": "The website, database and all games were hosted on a raspberry pie."
+    }
+  },
+    "resume": {
+    "under_header": "Programmer - Belgium",
+    "skills": {
+      "prot": "Networking protocols",
+      "alg": "Algorithms",
+      "datas": "Data structures",
+      "math": "Mathematics",
+      "teach": "Teaching",
+      "leader": "Leadership"
+    },
+    "edu": {
+      "title": "Education",
+      "ti": {
+        "title": "Bachelor in Applied Information Technology",
+        "date": "2018 - Present",
+        "extra": "Weighted average: 83.7%"
+      },
+      "fys": {
+        "title": "Bachelor in Physics",
+        "date": "2016 - 2018",
+        "extra": "Aborted"
+      }
+    },
+    "work": {
+      "title": "Work Experience",
+      "ticketgang": {
+        "date": "August 2019",
+        "description": "Had one month to build a cross-platform app with another student. The app could be used to manage scan-profiles and -crews, and to scan bar- and QRcodes on tickets at the entrance of events. All data had to be fetched from a database and scanned tickets pushed to the server when an internet connection is available."
+      }
+    },
+    "ex_cur": {
+      "title": "Extracurricular Activities",
+      "ibm_hack": {
+        "date": "October 2019",
+        "description": "Participated in a hackathon organised by IBM. The business case was to make a standalone Apple Watch app. We built an app that you could talk to to find out ingredients and recipes for a dish, give you live instructions while cooking, and order ingredients online"
+      },
+      "progr_comp": {
+        "title": "Flemish Programming Competition",
+        "date": "March 2019",
+        "description": "2nd place at the \"Vlaamse Programmeerwedstrijd\", a programming competition for people who live in Flanders."
+      },
+      "teach": {
+        "title": "Remedial teaching",
+        "description": "Gave a remedial lesson on assembly to students in the year below me. This semester I will teach 4 more of these lessons on different courses"
+      },
+      "chiro": {
+        "date": "2015 - Present",
+        "description": "Head monitor and monitor at Chiro Nemas Binkom."
+      }
+    },
+    "contact":{
+      "title": "Contact Information",
+      "belg": "Belgium"
+    },
+    "lang": {
+      "title": "Languages",
+      "nl": "Dutch (Native)",
+      "en": "English",
+      "fr": "French"
+    },
+    "progr_lang": {
+      "title": "Programming Languages"
+    },
+    "fram": {
+      "title": "Frameworks & Libraries"
+    }
+  }
+}
