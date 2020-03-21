@@ -6,7 +6,7 @@ import CompetencesComponent from "../competences/competencesComponent";
 import ProjectsComponent from "../projects/projectsComponent";
 import ResumeComponent from "../resume/resumeComponent";
 import {Route, Switch} from "react-router";
-import {HashRouter} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import ArnecrushComponent from "../projects/arnecrushComponent";
 import SnakeComponent from "../projects/snakeComponent";
 import AbcCookingComponent from "../projects/abcCookingComponent";
@@ -23,14 +23,14 @@ class PageComponent extends Component {
     }
 
     openAndCloseNav = (open) => {
-        console.log(open);
         this.setState({...this.state, navigationOpen: open});
     };
 
     render() {
         return (
             <React.Fragment>
-                <HashRouter basename={process.env.PUBLIC_URL}>
+                <span id="top"/>
+                <Router>
                     <section id="content">
                         <Switch>
                             <Route exact path="/resume">
@@ -61,9 +61,9 @@ class PageComponent extends Component {
                             </Route>
                         </Switch>
                     </section>
-                    <AppbarComponent openAndCloseNav={this.openAndCloseNav} navigationOpen={this.state.navigationOpen}/>
                     <NavigationComponent open={this.state.navigationOpen} openAndClose={this.openAndCloseNav}/>
-                </HashRouter>
+                    <AppbarComponent openAndCloseNav={this.openAndCloseNav} navigationOpen={this.state.navigationOpen}/>
+                </Router>
             </React.Fragment>
         );
     }

@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import i18next from "i18next";
+import {withTranslation} from "react-i18next";
 
 class AppbarComponent extends Component {
     render() {
@@ -6,14 +8,23 @@ class AppbarComponent extends Component {
             <React.Fragment>
                 <div id="appbar">
                     <span>Andreas Milants</span>
-                    {this.props.navigationOpen ?
-                        <span className="material-icons menu-button" onClick={this.closeNav}>arrow_right</span> :
-                        <span className="material-icons menu-button" onClick={this.openNav}>menu</span>}
-
+                    <div>
+                        <div style={{display: "flex"}}>
+                            <a onClick={this.changeLang} className={i18next.language === 'en' ? 'active' : ''}>en</a>
+                            <a onClick={this.changeLang} className={i18next.language === 'nl' ? 'active' : ''}>nl</a>
+                        </div>
+                        {this.props.navigationOpen ?
+                            <span className="material-icons menu-button" onClick={this.closeNav}>arrow_right</span> :
+                            <span className="material-icons menu-button" onClick={this.openNav}>menu</span>}
+                    </div>
                 </div>
             </React.Fragment>
         );
     }
+
+    changeLang = (e) => {
+        i18next.changeLanguage(e.currentTarget.innerHTML);
+    };
 
     openNav = (event) => {
         this.props.openAndCloseNav(true);
@@ -24,4 +35,4 @@ class AppbarComponent extends Component {
     };
 }
 
-export default AppbarComponent;
+export default withTranslation()(AppbarComponent);

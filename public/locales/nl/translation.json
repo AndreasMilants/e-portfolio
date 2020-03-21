@@ -1,0 +1,103 @@
+{
+  "about": {
+    "title": "Over mij",
+    "pOne": "Ik ben Andreas Milants en ik ben student Toegepaste Informatica aan University College Leuven-Limburg.",
+    "pTwo": "In mijn vrije tijd besteed ik de meeste tijd aan het maken van verschillende applicaties. Deze gaan van het maken van een eenvoudige website tot het uitwerken van Neural Networks.",
+    "pThree": "De tijd die ik dan nog over heb, spendeer ik aan mijn twee hobby's. Chiro en voetbal. Ik ben leiding in Chiro Nemas Binkom sinds 2015 en sinds 2018 ben ik er ook groepsleiding."
+  },
+  "competences": {
+    "title": "Competenties",
+    "backend_dev": "Backend webontwikkeling",
+    "frontend_dev": "Frontend webontwikkeling",
+    "app_dev": "App ontwikkeling",
+    "algo": "Algoritmen & Datastructuren",
+    "databases": "Databanken",
+    "second_place": "Tweede plaats Vlaamse Programmeerwedstrijd"
+  },
+  "navigation": {
+    "about": "Over mij",
+    "competences": "Competenties",
+    "projects": "Projecten",
+    "resume": "CV"
+  },
+  "projects": {
+    "title": "Projecten",
+    "abc_cooking": {
+      "pOne": "In oktober 2019 nam ik deel aan een hackathon die georganiseerd werd door IBM. De business case was om een standalone app te maken voor de Apple Watch. Ons idee was om een app te maken die je kon gebruiken bij het kopen van ingrediënten en koken van een gerecht.",
+      "pTwo": "Je kon gerechten kiezen uit een online databank en de app helpt je dan bij het hele proces. Van het kopen van de juiste ingrediënten in de juiste hoeveelheden tot het koken zelf.",
+      "pThree": "Om een gerecht te kiezen, kon je spreken tegen je horloge en dan werd er met behulp van Watson bepaald welk gerecht je wilde maken en voor hoeveel personen.",
+      "pFour": "De naam ABC-cooking komt van Appetite, Buy, Cook. Je beslist dat je \"Appetite\" hebt en kiest een gerecht. Hierna word je automatisch naar de \"Buy\" stap geleid die je daarna weer tot bij \"Cook\" brengt."
+    },
+    "arnecrush": {
+      "pOne": "Arnecrush is een passieproject dat ik heb gemaakt tijdens mijn eerste jaar Toegepaste Informatica. Dit was een website waarop mijn medestudenten spelletjes konden spelen. De bedoeling was dat alle assets in deze spelletjes gebaseerd waren op leerkrachten.",
+      "pTwo": "De website, database en alle games werden gehost op een raspberry pie."
+    }
+  },
+  "resume": {
+    "under_header": "Programmeur - België",
+    "skills": {
+      "prot": "Netwerkprotocollen",
+      "alg": "Algoritmen",
+      "datas": "Datastructuren",
+      "math": "Wiskunde",
+      "teach": "Lesgeven",
+      "leader": "Leiderschap"
+    },
+    "edu": {
+      "title": "Opleiding",
+      "ti": {
+        "title": "Bachelor in de Toegepaste Informatica",
+        "date": "2018 - Nu",
+        "extra": "Gewogen gemiddelde: 83.7%"
+      },
+      "fys": {
+        "title": "Bachelor in de Fysica",
+        "date": "2016 - 2018",
+        "extra": "Gestopt"
+      }
+    },
+    "work": {
+      "title": "Werkervaring",
+      "ticketgang": {
+        "date": "Augustus 2019",
+        "description": "Had een maand om een cross-platform app te maken samen met een andere student. De app kon gebruikt worden om scan-profielen en -crews te beheren, en om bar- en QR-codes te scannen aan de ingang van evenementen. Alle data moest met behulp van een API naar de server gestuurd worden."
+      }
+    },
+    "ex_cur": {
+      "title": "Buitenschoolse activiteiten",
+      "ibm_hack": {
+        "date": "Oktober 2019",
+        "description": "Deelgenomen aan een hackathon, georganiseerd door IBM.  De business case was om een standalone app te maken voor de Apple Watch. We hebben een app gebouwd waarbij je kon spreken tegen je horloge om ingrediënten voor een gerecht te ontdekken, live instructies kreeg tijdens het koken en online ingrediënten kon bestellen."
+      },
+      "progr_comp": {
+        "title": "Vlaamse Programmeerwedstrijd",
+        "date": "Maart 2019",
+        "description": "Tweede plaats op de Vlaamse Programmeerwedstrijd."
+      },
+      "teach": {
+        "title": "Monitoraat lessen",
+        "description": "Een monitoraat gegeven over assembly voor studenten in het jaar onder mij. Dit semester zal ik nog 4 van deze monitoraten geven over andere vakken."
+      },
+      "chiro": {
+        "date": "2015 - Nu",
+        "description": "Groepsleiding en leiding bij Chiro Nemas Binkom."
+      }
+    },
+    "contact":{
+      "title": "Contact Informatie",
+      "belg": "België"
+    },
+    "lang": {
+      "title": "Talen",
+      "nl": "Nederlands (Moedertaal)",
+      "en": "Engels",
+      "fr": "Frans"
+    },
+    "progr_lang": {
+      "title": "Programmeertalen"
+    },
+    "fram": {
+      "title": "Frameworks & Libraries"
+    }
+  }
+}

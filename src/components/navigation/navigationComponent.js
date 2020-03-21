@@ -1,13 +1,17 @@
 import React, {Component} from "react";
-import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as Link } from 'react-router-hash-link';
 import ContactComponent from "./contact/contactComponent";
+import { withTranslation } from 'react-i18next';
+
 class NavigationComponent extends Component {
     render() {
+        const { t } = this.props;
+
         const links = [
-            {href: "/#about", icon: "portrait", name: "Over mij"},
-            {href: "/#competences", icon: "category", name: "Competenties"},
-            {href: "/#projects", icon: "laptop", name: "Projecten"},
-            {href: "/resume#resume", icon: "school", name: "CV"},
+            {href: "/#about", icon: "portrait", name: t('navigation.about')},
+            {href: "/#competences", icon: "category", name: t('navigation.competences')},
+            {href: "/#projects", icon: "laptop", name: t('navigation.projects')},
+            {href: "/resume#top", icon: "school", name: t('navigation.resume')},
         ];
         return (
             <React.Fragment>
@@ -26,7 +30,7 @@ class NavigationComponent extends Component {
 
     getLink(link) {
         return (
-            <li><Link onClick={this.closeNav} to={link.href}><span
+            <li key={link.href}><Link onClick={this.closeNav} to={link.href}><span
                 className="material-icons">{link.icon}</span>{link.name}</Link></li>
         );
     }
@@ -36,4 +40,4 @@ class NavigationComponent extends Component {
     };
 }
 
-export default NavigationComponent;
+export default withTranslation()(NavigationComponent);

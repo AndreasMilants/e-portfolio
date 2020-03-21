@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import PageComponent from "./components/page/pageComponent";
 
 function App() {
     return (
         <React.Fragment>
-            <PageComponent/>
+            <Suspense fallback={<div className="loader"/>}>
+                <PageComponent/>
+            </Suspense>
         </React.Fragment>
     );
 }

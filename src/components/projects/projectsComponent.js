@@ -1,47 +1,49 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
+import {withTranslation} from "react-i18next";
 
 class ProjectsComponent extends Component {
     render() {
+        const {t} = this.props;
         return (
             <React.Fragment>
                 <article>
                     <span id="projects" className="link"/>
-                    <h2>Projecten</h2>
+                    <h2>{t("projects.title")}</h2>
                     <ul id="projects-list">
                         <li>
-                            <Link to="/snake">
-                                <video src={process.env.PUBLIC_URL + "/snake2.mp4"} autoPlay muted loop/>
+                            <Link to="/snake#top">
+                                <video src={process.env.PUBLIC_URL + "/snake/snake.mp4"} autoPlay muted loop/>
                                 <h3 className="contrast">Snake AI</h3>
                             </Link>
                         </li>
                         <li>
-                            <Link to="arnecrush">
-                                <img src={process.env.PUBLIC_URL + "/arnecrush.png"} alt="Arnecrush"/>
+                            <Link to="/arnecrush#top">
+                                <img src={process.env.PUBLIC_URL + "/arnecrush/logo.png"} alt="Arnecrush"/>
                                 <h3>Arnecrush</h3>
                             </Link>
                         </li>
                         <li>
-                            <Link to="abc-cooking">
-                                <img src={process.env.PUBLIC_URL + "/ABC Cooking.png"} alt="ABC Cooking"/>
+                            <Link to="/abc-cooking#top">
+                                <img src={process.env.PUBLIC_URL + "/abc_cooking/com.png"} alt="ABC Cooking"/>
                                 <h3 className="contrast">ABC cooking</h3>
                             </Link>
                         </li>
                         <li>
-                            <Link to="novem">
-                                <img src={process.env.PUBLIC_URL + "/novem.png"} alt="Novem"/>
+                            <Link to="/novem#top">
+                                <img src={process.env.PUBLIC_URL + "/novem/novem.png"} alt="Novem"/>
                                 <h3 className="contrast">Novem</h3>
                             </Link>
                         </li>
                         <li>
-                            <Link to="ticketgang">
+                            <Link to="/ticketgang#top">
                                 <img src={process.env.PUBLIC_URL + "/ticketgang/ticketgang.png"} alt="TicketGang"/>
                                 <h3>TicketGang</h3>
                             </Link>
                         </li>
                         <li>
-                            <Link to="start">
-                                <img src={process.env.PUBLIC_URL + "/stars.png"} alt="Stars 4 Everyone!"/>
+                            <Link to="/stars#top">
+                                <img src={process.env.PUBLIC_URL + "/stars4everyone/stars.png"} alt="Stars 4 Everyone!"/>
                                 <h3 className="contrast">Stars 4 Everyone!</h3>
                             </Link>
                         </li>
@@ -52,4 +54,4 @@ class ProjectsComponent extends Component {
     }
 }
 
-export default ProjectsComponent;
+export default withTranslation()(ProjectsComponent);

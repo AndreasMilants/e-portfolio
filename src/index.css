@@ -12,9 +12,14 @@ html {
     font-size: 1rem;
 }
 
-img {
+img, video {
     max-width: 100%;
     height: auto;
+}
+
+.gallery img, .gallery video {
+    background-color: #EFEFEF;
+    box-shadow: 0 1px 2px 0 #666666;
 }
 
 #appbar {
@@ -37,6 +42,26 @@ img {
     color: white;
 }
 
+#appbar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#appbar a {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: .4rem;
+    border-radius: 3px;
+}
+
+#appbar a.active {
+    background-color: white;
+    color: #500000;
+}
+
 .material-icons {
     cursor: default;
 }
@@ -54,7 +79,8 @@ a .material-icons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-left: 1px solid #CCCCCC;
+    //border-left: 1px solid #CCCCCC;
+    box-shadow: 0 0 5px 0 #111111;
     background-color: #E0E0E0;
     transition: .5s;
 }
@@ -131,7 +157,7 @@ a .material-icons {
     margin: 0;
     padding: .001rem .4rem;
     top: 3.2rem;
-    min-height: calc(100vh - 3.2rem);
+    min-height: calc(100vh - 5.2rem);
 }
 
 #content > article {
@@ -145,6 +171,12 @@ a .material-icons {
 .link {
     position: relative;
     top: -3.5rem;
+}
+
+.p {
+    margin: 1rem .5rem;
+    text-align: justify;
+    overflow: auto;
 }
 
 #about-me img {
@@ -475,6 +507,12 @@ a .material-icons {
 
     #content > section:last-child h2 {
         display: none;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
     }
 }
 

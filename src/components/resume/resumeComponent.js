@@ -1,9 +1,11 @@
 import React, {Component} from "react";
 import MainComponent from "./mainComponent";
 import ResumeSidebarComponent from "./resumeSidebarComponent";
+import {withTranslation} from "react-i18next";
 
 class ResumeComponent extends Component {
     render() {
+        const {t} = this.props;
         return (
             <React.Fragment>
                 <article>
@@ -14,7 +16,7 @@ class ResumeComponent extends Component {
                             <div>
                                 <h3>Andreas Milants</h3>
                                 <p>
-                                    <span>Programmeur - België</span>
+                                    <span>{t("resume.under_header")}</span>
                                     <span>5-dec-1997</span>
                                 </p>
                             </div>
@@ -30,4 +32,4 @@ class ResumeComponent extends Component {
     }
 }
 
-export default ResumeComponent;
+export default withTranslation()(ResumeComponent);

@@ -1,26 +1,28 @@
 import React, {Component} from "react";
+import {withTranslation} from 'react-i18next';
 
 class CompetencesComponent extends Component {
     render() {
+        const {t} = this.props;
         const competences = [
             {
-                name: "Backend webontwikkeling",
+                name: t("competences.backend_dev"),
                 info: ["Django", "Spring boot", "Phoenix"]
             },
             {
-                name: "Frontend webontwikkeling",
+                name: t("competences.frontend_dev"),
                 info: ["React", "Angular", "HTML", "CSS"]
             },
             {
-                name: "App-ontwikkeling",
+                name: t("competences.app_dev"),
                 info: ["Flutter", "Xamarin"]
             },
             {
-                name: "Algoritmen & Datastructuren",
-                info: ["Tweede plaats Vlaamse Programmeerwedstrijd"]
+                name: t("competences.algo"),
+                info: [t("competences.second_place")]
             },
             {
-                name: "Databanken",
+                name: t('competences.databases'),
                 info: ["PostgreSQL", "MySQL"]
             }
         ];
@@ -28,9 +30,9 @@ class CompetencesComponent extends Component {
             <React.Fragment>
                 <article>
                     <span id="competences" className="link"/>
-                    <h2>Competenties</h2>
+                    <h2>{t("competences.title")}</h2>
                     <ul id="competences-list">
-                        {competences.map(c => <CompetenceComponent {...c}/>)}
+                        {competences.map(c => <CompetenceComponent key={c.name} {...c}/>)}
                     </ul>
                 </article>
             </React.Fragment>
@@ -69,11 +71,11 @@ class CompetenceComponent extends Component {
 
     competenceInfo(info) {
         return (
-            <li>
+            <li key={info}>
                 {info}
             </li>
         );
     }
 }
 
-export default CompetencesComponent;
+export default withTranslation()(CompetencesComponent);
