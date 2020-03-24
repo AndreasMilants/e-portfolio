@@ -12,7 +12,7 @@ class ArnecrushComponent extends Component {
                 <p className="p">{t("projects.arnecrush.pTwo")}</p>
                 <section className="gallery">
                     <img src={process.env.PUBLIC_URL + "/arnecrush/pattern.png"} alt="pattern"/>
-                    <img src={process.env.PUBLIC_URL + "/arnecrush/banner2.png"} alt="banner"/>
+                    <img src={process.env.PUBLIC_URL + "/arnecrush/arnecrush_composition.jpg"} alt="banner"/>
                     <img src={process.env.PUBLIC_URL + "/arnecrush/home.png"} alt="homepage V1"/>
                     <video src={process.env.PUBLIC_URL + "/arnecrush/emoji.mp4"} autoPlay muted loop/>
                     <video src={process.env.PUBLIC_URL + "/arnecrush/arnebomber3.mp4"} autoPlay muted loop/>

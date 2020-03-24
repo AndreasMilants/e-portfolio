@@ -14,7 +14,7 @@ class ProjectsComponent extends Component {
                         <li>
                             <Link to="/snake#top">
                                 <video src={process.env.PUBLIC_URL + "/snake/snake.mp4"} autoPlay muted loop/>
-                                <h3 className="contrast">Snake AI</h3>
+                                <h3>Snake AI</h3>
                             </Link>
                         </li>
                         <li>
@@ -26,25 +26,25 @@ class ProjectsComponent extends Component {
                         <li>
                             <Link to="/abc-cooking#top">
                                 <img src={process.env.PUBLIC_URL + "/abc_cooking/com.png"} alt="ABC Cooking"/>
-                                <h3 className="contrast">ABC cooking</h3>
+                                <h3>ABC cooking</h3>
                             </Link>
                         </li>
                         <li>
                             <Link to="/novem#top">
                                 <img src={process.env.PUBLIC_URL + "/novem/novem.png"} alt="Novem"/>
-                                <h3 className="contrast">Novem</h3>
+                                <h3>Novem</h3>
                             </Link>
                         </li>
                         <li>
                             <Link to="/ticketgang#top">
-                                <img src={process.env.PUBLIC_URL + "/ticketgang/ticketgang.png"} alt="TicketGang"/>
+                                <img src={process.env.PUBLIC_URL + "/ticketgang/ticketgang.jpg"} alt="TicketGang"/>
                                 <h3>TicketGang</h3>
                             </Link>
                         </li>
                         <li>
                             <Link to="/stars#top">
                                 <img src={process.env.PUBLIC_URL + "/stars4everyone/stars.png"} alt="Stars 4 Everyone!"/>
-                                <h3 className="contrast">Stars 4 Everyone!</h3>
+                                <h3>Stars 4 Everyone!</h3>
                             </Link>
                         </li>
                     </ul>

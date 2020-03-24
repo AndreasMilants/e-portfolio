@@ -279,10 +279,7 @@ a .material-icons {
 #projects-list li h3 {
     margin: 0;
     padding: 1rem;
-}
-
-#projects-list li h3.contrast {
-    border-top: 1px solid #111111;
+    background-color: #EFEFEF;
 }
 
 #resume {
