@@ -556,17 +556,20 @@ a .material-icons {
 }
 
 @media print {
-    body {
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+
+    html {
+        background-color: white;
+        font-size: .76rem;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
     }
 
     #appbar, #nav {
         display: none;
-    }
-
-    html {
-        background-color: white;
     }
 
     #content {
@@ -578,19 +581,19 @@ a .material-icons {
         display: none;
     }
 
-    body {
-        width: 210mm;
-        height: 297mm;
-    }
+    @supports (-moz-appearance:none) {
+        html {
+            margin: 10mm 20mm;
+        }
 
+        #resume .header {
+            height: 85px;
+            grid-template-columns: 21.25% 78.75%;
+        }
+    }
 
     #resume .main ul li ul li {
         color: transparent;
         text-shadow: 0 0 0 white;
     }
-}
-
-@page {
-    size: A4;
-    margin: 10mm;
 }
