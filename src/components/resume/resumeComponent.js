@@ -21,14 +21,17 @@ class ResumeComponent extends Component {
                                 </p>
                             </div>
                         </section>
-                        <div>
-                            <MainComponent/>
-                            <ResumeSidebarComponent/>
-                        </div>
+                        <button className="hide-in-print print-button" onClick={this.print}>Print</button>
+                        <MainComponent/>
+                        <ResumeSidebarComponent/>
                     </section>
                 </article>
             </React.Fragment>
         );
+    }
+
+    print = () => {
+        window.print();
     }
 }
 

@@ -32,7 +32,7 @@ class ResumeSidebarComponent extends Component {
                         <li>+32476 67 50 50</li>
                         <li>Binkomstraat 133, 3211 Binkom, {t("resume.contact.belg")}</li>
                         <li><a href="https://linkedin.com/in/andreasmilants">linkedin.com/in/andreasmilants</a></li>
-                        <li><a href="https://andreasmilants.github.io">andreasmilants.github.io</a></li>
+                        <li><a href="https://andreasmilants.github.io/e-portfolio">andreasmilants.github.io/e-portfolio</a></li>
                     </ul>
                 </section>
                 <section>

@@ -79,7 +79,6 @@ a .material-icons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    //border-left: 1px solid #CCCCCC;
     box-shadow: 0 0 5px 0 #111111;
     background-color: #E0E0E0;
     transition: .5s;
@@ -282,34 +281,49 @@ a .material-icons {
     background-color: #EFEFEF;
 }
 
+.print-button {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    padding: .5rem;
+    background-color: #104080;
+    border-radius: 2px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#resume, #resume a {
+    color: black;
+}
+
 #resume {
     font-family: "Gill Sans Nova";
 }
 
 #resume .header {
-    margin: .4rem;
-}
-
-#resume .header {
-    display: flex;
-    align-items: center;
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 400px;
+    height: 120px;
 }
 
 #resume .header img {
-    max-width: 150px;
-    margin-right: 1rem;
     border-radius: 50%;
 }
 
-#resume .header h3 {
-    margin: 0;
+#resume .header div {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #resume .header p {
     margin: 0;
-}
-
-#resume .header p {
     display: flex;
     flex-direction: column;
 }
@@ -318,8 +332,17 @@ a .material-icons {
     font-style: italic;
 }
 
-#resume .main {
-    max-width: 100%;
+#resume .main > section {
+    margin: .2rem 0;
+    border-bottom: 1px solid #999;
+}
+
+#resume .main > section:last-child {
+    border-bottom: none;
+}
+
+#resume .main section h3 {
+    margin: 0;
 }
 
 #resume .main ul {
@@ -328,7 +351,6 @@ a .material-icons {
 }
 
 #resume .main ul li ul {
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -350,10 +372,6 @@ a .material-icons {
     display: block;
 }
 
-#resume .main > section {
-    border-bottom: 1px solid #666666;
-}
-
 #resume h3 {
     margin: .5rem 0;
     font-size: 1.3rem;
@@ -370,6 +388,7 @@ a .material-icons {
     margin: .2rem;
     background-color: #500000;
     border-radius: 2px;
+    font-size: .7rem;
     color: white;
 }
 
@@ -485,17 +504,6 @@ a .material-icons {
         transform: scale(1.1);
     }
 
-    #resume > div {
-        margin: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 220px;
-        grid-gap: 1rem;
-    }
-
-    #resume .main > section:last-child {
-        border-bottom: none;
-    }
-
     #content > section:last-child {
         margin: 3rem 0 0 0;
         padding: 2rem 2rem 0 2rem;
@@ -518,4 +526,54 @@ a .material-icons {
         max-width: 800px;
         margin: 0 calc((100% - 20rem - 800px) / 2);
     }
+}
+
+@media print, screen and (min-width: 1088px) {
+    #resume {
+        display: grid;
+        grid-template-columns: 71% 27%;
+        grid-column-gap: 2%;
+    }
+
+    #resume .header {
+        margin: 0;
+    }
+
+    #resume .main {
+        margin-left: 1rem;
+        grid-column: 1;
+    }
+
+    #resume .main > section:last-child {
+        border-bottom: none;
+    }
+}
+
+@media print {
+    #appbar, #nav {
+        display: none;
+    }
+
+    html {
+        background-color: white;
+    }
+
+    #content {
+        padding: 0;
+        top: 0;
+    }
+
+    .hide-in-print {
+        display: none;
+    }
+
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 10mm;
 }
