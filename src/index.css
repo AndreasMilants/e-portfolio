@@ -542,6 +542,12 @@ a .material-icons {
     #resume .main {
         margin-left: 1rem;
         grid-column: 1;
+        grid-row: 2;
+    }
+
+    #resume .side-bar {
+        grid-column: 2;
+        grid-row: 2;
     }
 
     #resume .main > section:last-child {
@@ -550,6 +556,11 @@ a .material-icons {
 }
 
 @media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
     #appbar, #nav {
         display: none;
     }
@@ -570,6 +581,12 @@ a .material-icons {
     body {
         width: 210mm;
         height: 297mm;
+    }
+
+
+    #resume .main ul li ul li {
+        color: transparent;
+        text-shadow: 0 0 0 white;
     }
 }
 
