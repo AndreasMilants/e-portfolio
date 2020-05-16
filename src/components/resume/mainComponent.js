@@ -44,7 +44,7 @@ class MainComponent extends Component {
             },
             {
                 title: t("resume.ex_cur.teach.title"),
-                date: "2019",
+                date: "2019-2020",
                 description: t("resume.ex_cur.teach.description"),
                 skills: [t("resume.skills.teach")]
             },

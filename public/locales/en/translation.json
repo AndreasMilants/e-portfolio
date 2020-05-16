@@ -7,12 +7,29 @@
   },
   "competences": {
     "title": "Competences",
-    "backend_dev": "Backend webdevelopment",
-    "frontend_dev": "Frontend webdevelopment",
-    "app_dev": "App development",
-    "algo": "Algorithms & Datastructures",
-    "databases": "Databases",
-    "second_place": "Second place \"Vlaamse Programmeerwedstrijd\""
+    "backend_dev": {
+      "title": "Backend webdevelopment",
+      "descr": "Advanced"
+    },
+    "frontend_dev": {
+      "title":"Frontend webdevelopment",
+      "descr": "Medium"
+    },
+    "app_dev": {
+      "title": "App development",
+      "descr": "Medium"
+    },
+    "algo": {
+      "title": "Algorithms & Datastructures",
+      "descr": "Advanced",
+      "second_place": "Second place \"Vlaamse Programmeerwedstrijd\""
+    },
+    "databases": {
+      "title": "Databases",
+      "descr": "Medium"
+    },
+    "level": "Level",
+    "exp": "Experience"
   },
   "navigation": {
     "about": "About me",
@@ -31,6 +48,24 @@
     "arnecrush": {
       "pOne": "Arnecrush is a passion-project I made in my first year of Applied Information Technology. It was a website where my fellow students could play games. The goal was to get as many in-game assets that were based on teachers.",
       "pTwo": "The website, database and all games were hosted on a raspberry pie."
+    },
+    "snake": {
+      "pOne": "One of my first programming projects ever was this snake AI. The program played snake using Neural Networks and improved upon itself by inheriting weights and biases from previous generations.",
+      "pTwo": "The entire program was written in Python. For performance reasons I used numpy for all of the matrix multiplications."
+    },
+    "novem": {
+      "pOne": "Novem is an evaluation instrument that was initially developed for schools. It is a way to score students on certain characteristic aspects by letting them fill in personal surveys. I was asked to develop an application for this by an acquaintance who developed these surveys.",
+      "pTwo": "Since security was key, I built the entire application with the Django Framework.",
+      "pThree": "This application is currently being tested in schools in Belgium."
+    },
+    "ticketgang": {
+      "pOne": "In August 2019, together with another student, I worked on an app for TicketGang.",
+      "pTwo": "The app would be used to scan tickets at the entrance of big events. Not only could you use it to scan tickets, it could also be used to set up different scan-profiles and manage a scancrew.",
+      "pThree": "The app was made with Xamarin and has a version for iOS and Android."
+    },
+    "stars_4_everyone": {
+      "pOne": "At school we have a project week every semester. This project week, two teams would have the opportunity to work with the BDD-principle. I was in one of those teams.",
+      "pTwo": "We had to build an application where people could give stars to their co-workers for help on projects. The technologies we used in this project were not very modern, which made it a bigger challenge. The entire project was built with Java Servlets."
     }
   },
     "resume": {
@@ -76,7 +111,7 @@
       },
       "teach": {
         "title": "Remedial teaching",
-        "description": "Gave a remedial lesson on assembly to students in the year below me."
+        "description": "Gave remedial lessons on assembly, web-development and object oriented programming to students in the year below me."
       },
       "chiro": {
         "date": "2015 - Present",

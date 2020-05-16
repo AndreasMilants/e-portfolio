@@ -7,12 +7,29 @@
   },
   "competences": {
     "title": "Competenties",
-    "backend_dev": "Backend webontwikkeling",
-    "frontend_dev": "Frontend webontwikkeling",
-    "app_dev": "App ontwikkeling",
-    "algo": "Algoritmen & Datastructuren",
-    "databases": "Databanken",
-    "second_place": "Tweede plaats Vlaamse Programmeerwedstrijd"
+    "backend_dev": {
+      "title": "Backend webontwikkeling",
+      "descr": "Hoog"
+    },
+    "frontend_dev": {
+      "title": "Frontend webontwikkeling",
+      "descr": "Gemiddeld"
+    },
+    "app_dev": {
+      "title": "App ontwikkeling",
+      "descr": "Gemiddeld"
+    },
+    "algo": {
+      "title": "Algoritmen & Datastructuren",
+      "descr": "Hoog",
+      "second_place": "Tweede plaats Vlaamse Programmeerwedstrijd"
+    },
+    "databases": {
+      "title": "Databanken",
+      "descr": "Gemiddeld"
+    },
+    "level": "Niveau",
+    "exp": "Ervaring"
   },
   "navigation": {
     "about": "Over mij",
@@ -31,6 +48,24 @@
     "arnecrush": {
       "pOne": "Arnecrush is een passieproject dat ik heb gemaakt tijdens mijn eerste jaar Toegepaste Informatica. Dit was een website waarop mijn medestudenten spelletjes konden spelen. De bedoeling was dat alle assets in deze spelletjes gebaseerd waren op leerkrachten.",
       "pTwo": "De website, database en alle games werden gehost op een raspberry pie."
+    },
+    "snake": {
+      "pOne": "Eén van mijn eerste programmeerprojecten was deze snake AI. Het programma speelde snake met behulp van Neural Networks en verbeterde zichzelf door weights en biases van vorige generaties over te erven.",
+      "pTwo": "Het hele programma is in Python geschreven. Omwille van performantie, heb ik numpy gebruikt voor het vermenigvuldigen van matrices."
+    },
+    "novem": {
+      "pOne": "Novem is een evaluatie-instrument dat oorspronkelijk ontwikkeld is voor scholen. Het is een manier om studenten te scoren op verschillende karakterkenmerken door hen vragenlijsten te laten invullen. Een kennis heeft mij gevraagd om deze applicatie te ontwikkelen.",
+      "pTwo": "Aangezien beveiliging één van de belangrijkste onderdelen was van deze applicatie, heb ik besloten de applicatie met het Django Framework te maken.",
+      "pThree": "Momenteel wordt deze applicatie getest in Belgische scholen."
+    },
+    "ticketgang": {
+      "pOne": "In augustus 2019 heb ik, samen met een andere student, aan een app gewerkt voor TicketGang.",
+      "pTwo": "De app moest gebruikt worden voor het scannen van tickets aan de ingang van grote evenementen. Ze kon niet enkel gebruikt worden om deze tickets te scannen, maar ook om verschillende scan-profielen op te stellen en een scan-crew te beheren.",
+      "pThree": "De app is gemaakt met Xamarin en heeft een iOS en Android versie."
+    },
+    "stars_4_everyone": {
+      "pOne": "Op school hebben we elk semester een projectweek. Deze projectweek mochten twee teams volgens het BDD-principe werken. Ik zat in één van deze teams.",
+      "pTwo": "We moesten een applicatie maken waar gebruikers sterren konden geven aan hun collega's voor hulp bij projecten. De gebruikte technologieën waren niet echt modern, wat de uitdaging des te groter maakte. Het hele project is gemaakt met Java Servlets."
     }
   },
   "resume": {
@@ -76,14 +111,14 @@
       },
       "teach": {
         "title": "Monitoraat lessen",
-        "description": "Een monitoraat gegeven over assembly voor studenten in het jaar onder mij."
+        "description": "Enkele monitoraat-lessen gegeven over assembly, web-ontwikkeling en object-georiënteerd programmeren voor studenten in het jaar onder mij."
       },
       "chiro": {
         "date": "2015 - Nu",
         "description": "Groepsleiding en leiding bij Chiro Nemas Binkom."
       }
     },
-    "contact":{
+    "contact": {
       "title": "Contact Informatie",
       "belg": "België"
     },
