@@ -447,6 +447,55 @@ a .material-icons {
     background-color: #500000;
 }
 
+.link-matrix {
+    color: inherit;
+}
+
+#matrix button {
+    width: auto;
+    margin: .3rem;
+    padding: 0;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #500000;
+    background: none;
+    cursor: pointer;
+    font-size: 1.0rem;
+    border: none;
+}
+
+#competences-matrix-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#matrix .table .row {
+    padding: .5rem 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 100px 1fr;
+    grid-column-gap: .5rem;
+    word-wrap: break-word;
+    border-bottom: 1px solid #DDD;
+}
+
+#matrix .row.head {
+    background: #EEE;
+    border-top: 1px solid #DDD;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+#matrix .row .info {
+    font-size: 0.95em;
+}
+
+#matrix .head {
+    color: #500000;
+}
+
 @media screen and (min-width: 768px) {
     #appbar .menu-button {
         display: none;
@@ -534,6 +583,10 @@ a .material-icons {
 }
 
 @media screen and (min-width: 1120px) {
+    .hide-big {
+        display: none;
+    }
+
     #content {
         max-width: 800px;
         margin: 0 calc((100% - 20rem - 800px) / 2);
