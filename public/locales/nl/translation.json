@@ -69,7 +69,7 @@
     }
   },
   "resume": {
-    "under_header": "Programmeur - België",
+    "under_header": "Software Developer - België",
     "skills": {
       "prot": "Netwerkprotocollen",
       "alg": "Algoritmen",
@@ -94,8 +94,8 @@
     "work": {
       "title": "Werkervaring",
       "ticketgang": {
-        "date": "Augustus 2019",
-        "description": "Had een maand om een cross-platform app te maken samen met een andere student. De app kon gebruikt worden om scan-profielen en -crews te beheren, en om bar- en QR-codes te scannen aan de ingang van evenementen. Alle data moest met behulp van een API naar de server gestuurd worden."
+        "date": "Augustus 2019, augustus 2020",
+        "description": "In 2019 heb ik een app gebouwd om scan-crews en -profielen te beheren, en om tickets te scannen aan de ingang van evenementen. In 2020 kreeg ik de opdracht om de app te bouwen om tickets te kopen, reserveren en beheren."
       }
     },
     "ex_cur": {
@@ -119,7 +119,7 @@
       }
     },
     "contact": {
-      "title": "Contact Informatie",
+      "title": "Contactinformatie",
       "belg": "België"
     },
     "lang": {

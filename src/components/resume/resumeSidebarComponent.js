@@ -12,8 +12,8 @@ class ResumeSidebarComponent extends Component {
 
         const programmingLang = [
             {name: "Python", level: 5},
-            {name: "Java", level: 4},
             {name: "JavaScript", level: 4},
+            {name: "Java", level: 4},
             {name: "C#", level: 3},
             {name: "C++", level: 2},
             {name: "Elixir", level: 2},
@@ -21,9 +21,8 @@ class ResumeSidebarComponent extends Component {
 
         const frameworks = [
             {name: "Django", level: 5},
-            {name: "React JS", level: 4},
-            {name: ".NET", level: 3},
-            {name: "Spring Boot", level: 3},
+            {name: "React JS", level: 3},
+            {name: "Spring Boot", level: 2},
         ];
         return (
             <section className="side-bar">

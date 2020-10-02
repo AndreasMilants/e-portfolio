@@ -243,6 +243,7 @@ a .material-icons {
     border-radius: 5rem;
     transition: .4s ease;
     text-align: center;
+    font-size: .8rem;
 }
 
 #competences-list li > .open li {
@@ -421,12 +422,12 @@ a .material-icons {
 
 #resume .side-bar section > ul {
     list-style-type: none;
-    margin: .6rem;
+    margin: .3rem;
     padding: 0;
 }
 
 #resume .side-bar section > ul > li {
-    margin: .1rem;
+    margin: .5rem 0;
 }
 
 #resume .side-bar section ul li .level {

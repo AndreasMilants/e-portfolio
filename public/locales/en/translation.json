@@ -69,7 +69,7 @@
     }
   },
   "resume": {
-    "under_header": "Programmer - Belgium",
+    "under_header": "Software Developer - Belgium",
     "skills": {
       "prot": "Networking protocols",
       "alg": "Algorithms",
@@ -94,8 +94,8 @@
     "work": {
       "title": "Work Experience",
       "ticketgang": {
-        "date": "August 2019",
-        "description": "Had one month to build a cross-platform app with another student. The app could be used to manage scan-profiles and -crews, and to scan bar- and QRcodes on tickets at the entrance of events. All data had to be fetched from a database and scanned tickets pushed to the server when an internet connection is available."
+        "date": "August 2019, August 2020",
+        "description": "In 2019, I built an app that could be used to manage scan-profiles and -crews, and to scan tickets at the entrance of events. In 2020, I built an app to buy, reserve and manage tickets for events."
       }
     },
     "ex_cur": {
