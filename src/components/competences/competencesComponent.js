@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {withTranslation} from 'react-i18next';
-import {NavHashLink as Link} from "react-router-hash-link";
 
 class CompetencesComponent extends Component {
     render() {
@@ -39,7 +38,6 @@ class CompetencesComponent extends Component {
                 <article>
                     <span id="competences" className="link"/>
                     <h2>{t("competences.title")}</h2>
-                    <Link className="link-matrix" to="/competences-matrix">{t("competences.matrix")}</Link>
                     <ul id="competences-list">
                         {competences.map(c => <CompetenceComponent key={c.name} {...c} {...this.props}/>)}
                     </ul>
@@ -66,9 +64,6 @@ class CompetenceComponent extends Component {
                     <span className="material-icons">{this.state.open ? "arrow_drop_up" : "arrow_drop_down"}</span>
                 </div>
                 <div className={this.state.open ? "open" : ""}>
-                    <h3>{t("competences.level")}</h3>
-                    <p>{this.props.descr}</p>
-                    <h3>{t("competences.exp")}</h3>
                     <ul>
                         {this.props.info.map(i => this.competenceInfo(i))}
                     </ul>

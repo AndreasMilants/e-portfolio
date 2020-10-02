@@ -13,7 +13,6 @@ import AbcCookingComponent from "../projects/abcCookingComponent";
 import NovemComponent from "../projects/novemComponent";
 import TicketgangComponent from "../projects/ticketgangComponent";
 import StarsComponent from "../projects/starsComponent";
-import CompetencesMatrixComponent from "../competences/competencesMatrix";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -54,9 +53,6 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/stars">
                                 <StarsComponent/>
-                            </Route>
-                             <Route exact path="/competences-matrix">
-                                <CompetencesMatrixComponent/>
                             </Route>
                             <Route path="">
                                 <AboutComponent/>
