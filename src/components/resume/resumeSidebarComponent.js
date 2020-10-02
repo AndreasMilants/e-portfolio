@@ -7,7 +7,7 @@ class ResumeSidebarComponent extends Component {
         const languages = [
             {name: t("resume.lang.nl"), level: 5},
             {name: t("resume.lang.en"), level: 5},
-            {name: t("resume.lang.fr"), level: 2},
+            {name: t("resume.lang.fr"), level: 3},
         ];
 
         const programmingLang = [
@@ -15,6 +15,8 @@ class ResumeSidebarComponent extends Component {
             {name: "Java", level: 4},
             {name: "JavaScript", level: 4},
             {name: "C#", level: 3},
+            {name: "C++", level: 2},
+            {name: "Elixir", level: 2},
         ];
 
         const frameworks = [
