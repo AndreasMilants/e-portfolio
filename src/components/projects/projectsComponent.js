@@ -12,14 +12,8 @@ class ProjectsComponent extends Component {
                     <h2>{t("projects.title")}</h2>
                     <ul id="projects-list">
                         <li>
-                            <Link to="/snake#top">
-                                <video src={process.env.PUBLIC_URL + "/snake/snake.mp4"} autoPlay muted loop/>
-                                <h3>Snake AI</h3>
-                            </Link>
-                        </li>
-                        <li>
                             <Link to="/cnb#top">
-                                <img src={process.env.PUBLIC_URL + "/cnb/homepage.png"} alt="Chiro Nemas Binkom"/>
+                                <img src={process.env.PUBLIC_URL + "/cnb/homepage_small.png"} alt="Chiro Nemas Binkom"/>
                                 <h3>Chiro Nemas</h3>
                             </Link>
                         </li>
@@ -33,6 +27,12 @@ class ProjectsComponent extends Component {
                             <Link to="/abc-cooking#top">
                                 <img src={process.env.PUBLIC_URL + "/abc_cooking/com.png"} alt="ABC Cooking"/>
                                 <h3>ABC cooking</h3>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/snake#top">
+                                <video src={process.env.PUBLIC_URL + "/snake/snake_small.mov"} autoPlay muted loop/>
+                                <h3>Snake AI</h3>
                             </Link>
                         </li>
                         <li>

@@ -468,6 +468,13 @@ a .material-icons {
     }
 }
 
+.slick-prev:before, .slick-next:before {
+    color:#104080 !important;
+}
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 5px;}
+
 @media screen and (min-width: 1088px) {
     #about-me > div {
         max-width: 100%;

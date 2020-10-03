@@ -7,13 +7,13 @@ import ProjectsComponent from "../projects/projectsComponent";
 import ResumeComponent from "../resume/resumeComponent";
 import {Route, Switch} from "react-router";
 import {HashRouter as Router} from "react-router-dom";
-import ArnecrushComponent from "../projects/arnecrushComponent";
-import SnakeComponent from "../projects/snakeComponent";
-import AbcCookingComponent from "../projects/abcCookingComponent";
-import NovemComponent from "../projects/novemComponent";
-import TicketgangComponent from "../projects/ticketgangComponent";
-import StarsComponent from "../projects/starsComponent";
-import CnbComponent from "../projects/cnbComponent";
+import ArnecrushComponent from "../projects/projects/arnecrushComponent";
+import SnakeComponent from "../projects/projects/snakeComponent";
+import AbcCookingComponent from "../projects/projects/abcCookingComponent";
+import NovemComponent from "../projects/projects/novemComponent";
+import TicketgangComponent from "../projects/projects/ticketgangComponent";
+import StarsComponent from "../projects/projects/starsComponent";
+import CnbComponent from "../projects/projects/cnbComponent";
 
 class PageComponent extends Component {
     constructor(props) {
