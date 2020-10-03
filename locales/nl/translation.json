@@ -66,6 +66,13 @@
     "stars_4_everyone": {
       "pOne": "Op school hebben we elk semester een projectweek. Deze projectweek mochten twee teams volgens het BDD-principe werken. Ik zat in één van deze teams.",
       "pTwo": "We moesten een applicatie maken waar gebruikers sterren konden geven aan hun collega's voor hulp bij projecten. De gebruikte technologieën waren niet echt modern, wat de uitdaging des te groter maakte. Het hele project is gemaakt met Java Servlets."
+    },
+    "cnb": {
+      "pOne": "In 2020 besloten we (Chiro Nemas Binkom) dat we toe waren aan een nieuwe website. Tot dit moment gebruikten we nog een gewone Wordpress-site, maar we wilden een betere manier voorzien om je in te kunnen schrijven als lid voor onze Chiro.",
+      "pTwo": "Ik heb besloten een nieuwe website te bouwen met behulp van Django en deze te hosten op AWS.",
+      "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij-applicatie (De eerste versie van mijn django package django-photos), en nog vele andere features.",
+      "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Momenteel wordt ze getest op het domein ",
+      "pFourTwo": ", maar we zijn van plan naar ons echte domein over te schakelen in een van de komende weken."
     }
   },
   "resume": {
