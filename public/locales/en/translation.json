@@ -61,7 +61,8 @@
     "ticketgang": {
       "pOne": "In August 2019, together with another student, I worked on an app for TicketGang.",
       "pTwo": "The app would be used to scan tickets at the entrance of big events. Not only could you use it to scan tickets, it could also be used to set up different scan-profiles and manage a scancrew.",
-      "pThree": "The app was made with Xamarin and has a version for iOS and Android."
+      "pThree": "The app was made with Xamarin and has a version for iOS and Android.",
+      "pFour": "In 2020 I once again went to work for TicketGang for a month. This time I got the assignment to build an app to buy, sell and reserve tickets."
     },
     "stars_4_everyone": {
       "pOne": "At school we have a project week every semester. This project week, two teams would have the opportunity to work with the BDD-principle. I was in one of those teams.",

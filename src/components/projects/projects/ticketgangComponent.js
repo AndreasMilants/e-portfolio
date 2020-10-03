@@ -23,6 +23,7 @@ class TicketgangComponent extends Component {
                 <p className="p">{t("projects.ticketgang.pOne")}</p>
                 <p className="p">{t("projects.ticketgang.pTwo")}</p>
                 <p className="p">{t("projects.ticketgang.pThree")}</p>
+                <p className="p">{t("projects.ticketgang.pFour")}</p>
                 <CarouselComponent media={media}/>
             </article>
         );

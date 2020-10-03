@@ -61,7 +61,8 @@
     "ticketgang": {
       "pOne": "In augustus 2019 heb ik, samen met een andere student, aan een app gewerkt voor TicketGang.",
       "pTwo": "De app moest gebruikt worden voor het scannen van tickets aan de ingang van grote evenementen. Ze kon niet enkel gebruikt worden om deze tickets te scannen, maar ook om verschillende scan-profielen op te stellen en een scan-crew te beheren.",
-      "pThree": "De app is gemaakt met Xamarin en heeft een iOS en Android versie."
+      "pThree": "De app is gemaakt met Xamarin en heeft een iOS en Android versie.",
+      "pFour": "In 2020 ben ik opnieuw een maand lang gaan werken bij TicketGang. Deze keer kreeg ik de opdracht om een app te bouwen om tickets aan te kopen, te reserveren, en te beheren."
     },
     "stars_4_everyone": {
       "pOne": "Op school hebben we elk semester een projectweek. Deze projectweek mochten twee teams volgens het BDD-principe werken. Ik zat in één van deze teams.",
