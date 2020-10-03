@@ -6,7 +6,7 @@
     "pThree": "The time that I've got left, I spend on my two hobbies: Chiro and football. I've been monitor at Chiro Nemas Binkom since 2015 and since 2018 I am head monitor."
   },
   "competences": {
-    "title": "Competences",
+    "title": "Skills",
     "backend_dev": {
       "title": "Backend webdevelopment",
       "descr": "Advanced"
@@ -33,7 +33,7 @@
   },
   "navigation": {
     "about": "About me",
-    "competences": "Competences",
+    "competences": "Skills",
     "projects": "Projects",
     "resume": "Resume"
   },
@@ -70,7 +70,7 @@
     "cnb": {
       "pOne": "In 2020 we (Chiro Nemas Binkom) decided we needed a new website. Untill this moment we were running a wordpress website, but we wanted to create an easier way for our members to enroll.",
       "pTwo": "I decided to build a new website in Django and host it on AWS.",
-      "pThree": "The project contains a custom built CMS, photo-gallery application (The first version of my own django package django-photos) and lots of extra features.",
+      "pThree": "The project contains a custom built CMS, photo-gallery application and lots of extra features.",
       "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment. And is currently being tested on the domain ",
       "pFourTwo": ". We are planning on migrating to our real domain in the next few weeks."
     }
@@ -101,8 +101,12 @@
     "work": {
       "title": "Work Experience",
       "ticketgang": {
-        "date": "August 2019, August 2020",
-        "description": "In 2019, I built an app that could be used to manage scan-profiles and -crews, and to scan tickets at the entrance of events. In 2020, I built an app to buy, reserve and manage tickets for events."
+        "date": "August 2019",
+        "description": "Built an app to scan tickets at the entrance of events, and manage scan-profiles and -crews."
+      },
+      "ticketgang2": {
+        "date": "August 2020",
+        "description": "Built an app to buy, reserve and manage tickets for events."
       }
     },
     "ex_cur": {

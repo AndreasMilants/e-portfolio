@@ -6,7 +6,7 @@
     "pThree": "De tijd die ik dan nog over heb, spendeer ik aan mijn twee hobby's: Chiro en voetbal. Ik ben leiding in Chiro Nemas Binkom sinds 2015 en sinds 2018 ben ik er ook groepsleiding."
   },
   "competences": {
-    "title": "Competenties",
+    "title": "Skills",
     "backend_dev": {
       "title": "Backend webontwikkeling",
       "descr": "Hoog"
@@ -33,7 +33,7 @@
   },
   "navigation": {
     "about": "Over mij",
-    "competences": "Competenties",
+    "competences": "Skills",
     "projects": "Projecten",
     "resume": "CV"
   },
@@ -70,7 +70,7 @@
     "cnb": {
       "pOne": "In 2020 besloten we (Chiro Nemas Binkom) dat we toe waren aan een nieuwe website. Tot dit moment gebruikten we nog een gewone Wordpress-site, maar we wilden een betere manier voorzien om je in te kunnen schrijven als lid voor onze Chiro.",
       "pTwo": "Ik heb besloten een nieuwe website te bouwen met behulp van Django en deze te hosten op AWS.",
-      "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij-applicatie (De eerste versie van mijn django package django-photos), en nog vele andere features.",
+      "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij applicatie, en nog vele andere features.",
       "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Momenteel wordt ze getest op het domein ",
       "pFourTwo": ", maar we zijn van plan naar ons echte domein over te schakelen in een van de komende weken."
     }
@@ -101,8 +101,12 @@
     "work": {
       "title": "Werkervaring",
       "ticketgang": {
-        "date": "Augustus 2019, augustus 2020",
-        "description": "In 2019 heb ik een app gebouwd om scan-crews en -profielen te beheren, en om tickets te scannen aan de ingang van evenementen. In 2020 kreeg ik de opdracht om de app te bouwen om tickets te kopen, reserveren en beheren."
+        "date": "Augustus 2019",
+        "description": "App gebouwd om tickets te scannen aan de ingang van evenementen, en om scan-crews en -profielen te beheren."
+      },
+      "ticketgang2": {
+        "date": "augustus 2020",
+        "description": "App gebouwd om tickets te kopen, reserveren en beheren."
       }
     },
     "ex_cur": {
@@ -117,8 +121,8 @@
         "description": "Tweede plaats op de Vlaamse Programmeerwedstrijd."
       },
       "teach": {
-        "title": "Monitoraat lessen",
-        "description": "Monitoraat-lessen gegeven over assembly, web-ontwikkeling en object-georiënteerd programmeren voor eerste- en tweede-jaars studenten in de richting Toegepaste Informatica."
+        "title": "Monitoraatlessen",
+        "description": "Monitoraatlessen gegeven over assembly, web-ontwikkeling en object-georiënteerd programmeren voor eerste- en tweede-jaars studenten in de richting Toegepaste Informatica."
       },
       "chiro": {
         "date": "2015 - Nu",

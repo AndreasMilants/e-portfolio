@@ -28,6 +28,12 @@ class MainComponent extends Component {
                 description: t("resume.work.ticketgang.description"),
                 skills: ["Xamarin", "C#", ".NET"]
             },
+            {
+                title: "TicketGang",
+                date: t("resume.work.ticketgang2.date"),
+                description: t("resume.work.ticketgang2.description"),
+                skills: ["Xamarin", "C#", ".NET", "Firebase"]
+            },
         ];
         const extracurricular = [
             {

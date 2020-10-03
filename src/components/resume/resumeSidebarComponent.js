@@ -15,7 +15,7 @@ class ResumeSidebarComponent extends Component {
             {name: "JavaScript", level: 4},
             {name: "Java", level: 4},
             {name: "C#", level: 3},
-            {name: "C++", level: 2},
+            {name: "C++", level: 3},
             {name: "Elixir", level: 2},
         ];
 
