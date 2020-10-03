@@ -18,6 +18,12 @@ class ProjectsComponent extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/cnb#top">
+                                <img src={process.env.PUBLIC_URL + "/cnb/homepage.png"} alt="Chiro Nemas Binkom"/>
+                                <h3>Chiro Nemas</h3>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/arnecrush#top">
                                 <img src={process.env.PUBLIC_URL + "/arnecrush/logo.png"} alt="Arnecrush"/>
                                 <h3>Arnecrush</h3>

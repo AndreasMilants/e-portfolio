@@ -13,6 +13,7 @@ import AbcCookingComponent from "../projects/abcCookingComponent";
 import NovemComponent from "../projects/novemComponent";
 import TicketgangComponent from "../projects/ticketgangComponent";
 import StarsComponent from "../projects/starsComponent";
+import CnbComponent from "../projects/cnbComponent";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -38,6 +39,9 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/snake">
                                 <SnakeComponent/>
+                            </Route>
+                            <Route exact path="/cnb">
+                                <CnbComponent/>
                             </Route>
                             <Route exact path="/arnecrush">
                                 <ArnecrushComponent/>

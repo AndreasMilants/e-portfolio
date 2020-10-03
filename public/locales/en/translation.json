@@ -66,6 +66,13 @@
     "stars_4_everyone": {
       "pOne": "At school we have a project week every semester. This project week, two teams would have the opportunity to work with the BDD-principle. I was in one of those teams.",
       "pTwo": "We had to build an application where people could give stars to their co-workers for help on projects. The technologies we used in this project were not very modern, which made it a bigger challenge. The entire project was built with Java Servlets."
+    },
+    "cnb": {
+      "pOne": "In 2020 we (Chiro Nemas Binkom) decided we needed a new website. Untill this moment we were running a wordpress website, but we wanted to create an easier way for our members to enroll.",
+      "pTwo": "I decided to build a new website in Django and host it on AWS.",
+      "pThree": "The project contains a custom built CMS, photo-gallery application (The first version of my own django package django-photos) and lots of extra features.",
+      "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment. And is currently being tested on the domain ",
+      "pFourTwo": ". We are planning on migrating to our real domain in the next few weeks."
     }
   },
   "resume": {
