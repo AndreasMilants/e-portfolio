@@ -29,7 +29,7 @@ class ResumeSidebarComponent extends Component {
                 <section>
                     <h4>{t("resume.contact.title")}</h4>
                     <ul>
-                        <li><a href="andreas.milants@gmail.com">andreas.milants@gmail.com</a></li>
+                        <li><a href="mailto:andreas.milants@gmail.com">andreas.milants@gmail.com</a></li>
                         <li>+32476 67 50 50</li>
                         <li>Binkomstraat 133, 3211 Binkom, {t("resume.contact.belg")}</li>
                         <li><a href="https://linkedin.com/in/andreasmilants">linkedin.com/in/andreasmilants</a></li>
