@@ -13,7 +13,7 @@ i18n
         backend: {
             loadPath: process.env.PUBLIC_URL + '/locales/{{lng}}/translation.json'
         },
-        whitelist: ['en', 'nl'],
+        whitelist: ['en', 'fr', 'nl'],
         nonExplicitWhitelist: true,
         load: 'languageOnly',
         fallbackLng: "en",

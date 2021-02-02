@@ -14,7 +14,7 @@ class CompetencesComponent extends Component {
             {
                 name: t("competences.frontend_dev.title"),
                 descr: t("competences.frontend_dev.descr"),
-                info: ["React", "Angular", "HTML", "CSS", "JQuery"]
+                info: ["React", "HTML", "CSS", "JQuery"]
             },
             {
                 name: t("competences.app_dev.title"),
