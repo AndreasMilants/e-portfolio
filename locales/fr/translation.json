@@ -1,0 +1,150 @@
+{
+  "about": {
+    "title": "À propos de moi",
+    "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée à l'University College Leuven-Limburg.",
+    "pTwo": "Dans mon temps libre, je passe la plupart de mon temps à créer différentes applications. Celles-ci vont de la création d'un simple site Web au développement de réseaux de neurones.",
+    "pThree": "Le temps qu'il me reste, je le consacre à mes deux passe-temps: Chiro et football. Je suis moniteur chez Chiro Nemas Binkom depuis 2015 et depuis 2018 je suis également chef de groupe."
+  },
+  "competences": {
+    "title": "Compétences",
+    "backend_dev": {
+      "title": "Développement web backend",
+      "descr": "Haut niveau"
+    },
+    "frontend_dev": {
+      "title": "Développement web frontend",
+      "descr": "Niveau moyen"
+    },
+    "app_dev": {
+      "title": "Développement d'applications mobiles",
+      "descr": "Niveau moyen"
+    },
+    "algo": {
+      "title": "Algorithmes et structures de données",
+      "descr": "Haut niveau",
+      "second_place": "Concours de programmation flamand deuxième place"
+    },
+    "databases": {
+      "title": "Bases de données",
+      "descr": "Haut niveau"
+    },
+    "level": "Niveau",
+    "exp": "Expérience"
+  },
+  "navigation": {
+    "about": "À propos de moi",
+    "competences": "Compétences",
+    "projects": "Projets",
+    "resume": "CV"
+  },
+  "projects": {
+    "title": "Projets",
+    "abc_cooking": {
+      "pOne": "En octobre 2019, j'ai participé à un hackathon organisé par IBM. L'analyse de rentabilisation était de créer une application autonome pour l'Apple Watch. Notre idée était de créer une application que vous pourriez utiliser pour acheter des ingrédients et cuisiner un plat.",
+      "pTwo": "Vous pouvez choisir des plats dans une base de données en ligne et l'application vous aidera tout au long du processus. De l'achat des bons ingrédients dans les bonnes quantités à la cuisson vous-même.",
+      "pThree": "Pour choisir un plat, vous pouvez parler à votre montre et avec l'aide de Watson, il a été déterminé quel plat vous vouliez préparer et pour combien de personnes.",
+      "pFour": "Le nom ABC-cooking vient de Appetite, Buy, Cook. Vous décidez que vous avez \"Appetite\" et choisissez un plat. Après cela, vous serez automatiquement dirigé vers l'étape \"Buy\" qui vous ramènera à \"Cook\"."
+    },
+    "arnecrush": {
+      "pOne": "Arnecrush est un projet de passion que j'ai créé lors de ma première année d'informatique appliquée. C'était un site Web où mes camarades pouvaient jouer à des jeux. L'intention était que tous les atouts de ces jeux soient basés sur les enseignants.",
+      "pTwo": "Le site Web, la base de données et tous les jeux étaient hébergés sur une raspberry pie."
+    },
+    "snake": {
+      "pOne": "L'un de mes premiers projets de programmation était cette IA serpent. Le programme a joué au serpent en utilisant les réseaux de neurones et s'est amélioré en héritant des poids et des biais des générations précédentes.",
+      "pTwo": "L'ensemble du programme est écrit en Python. Pour des raisons de performances, j'ai utilisé numpy pour multiplier les matrices."
+    },
+    "novem": {
+      "pOne": "Novem est un outil d'évaluation développé à l'origine pour les écoles. C'est un moyen de noter les élèves sur différents traits de caractère en leur demandant de remplir des questionnaires. Une connaissance m'a demandé de développer cette application.",
+      "pTwo": "La sécurité étant l'une des parties les plus importantes de cette application, j'ai décidé de créer l'application avec Django Framework.",
+      "pThree": "Actuellement, cette application est testée dans les écoles belges."
+    },
+    "ticketgang": {
+      "pOne": "En août 2019, j'ai travaillé sur une application pour TicketGang, avec un autre étudiant.",
+      "pTwo": "L'application devait être utilisée pour scanner les billets à l'entrée des grands événements. Il pourrait non seulement être utilisé pour scanner ces tickets, mais également pour configurer différents profils de scan et gérer une équipe de scan.",
+      "pThree": "L'application est créée avec Xamarin et dispose d'une version iOS et Android.",
+      "pFour": "En 2020, j'ai recommencé à travailler chez TicketGang pendant un mois. Cette fois, j'ai été chargé de créer une application pour acheter, réserver et gérer des billets."
+    },
+    "stars_4_everyone": {
+      "pOne": "À l'école, nous avons une semaine de projet chaque semestre. Cette semaine de projet, deux équipes ont été autorisées à travailler selon le principe BDD. J'étais dans l'une de ces équipes.",
+      "pTwo": "Nous devions créer une application permettant aux utilisateurs d'évaluer leurs collègues pour obtenir de l'aide sur les projets. Les technologies utilisées n'étaient pas vraiment modernes, ce qui ajoutait au défi. L'ensemble du projet est réalisé avec des servlets Java."
+    },
+    "cnb": {
+      "pOne": "En 2020, nous (Chiro Nemas Binkom) avons décidé que nous étions prêts pour un nouveau site Web. Jusqu'à présent, nous utilisions toujours un site Wordpress régulier, mais nous voulions fournir une meilleure façon de vous inscrire en tant que membre de notre Chiro.",
+      "pTwo": "J'ai décidé de créer un nouveau site Web en utilisant Django et de l'héberger sur AWS.",
+      "pThree": "Le projet comprend un CMS auto-construit, une application de galerie de photos et de nombreuses autres fonctionnalités.",
+      "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle est actuellement testée sur le domaine ",
+      "pFourTwo": ", mais nous prévoyons de passer à notre vrai domaine dans l'une des prochaines semaines."
+    }
+  },
+  "resume": {
+    "under_header": "Développeur logiciel - Belgique",
+    "skills": {
+      "prot": "Protocoles réseau",
+      "alg": "Algorithmes",
+      "datas": "Structures de données",
+      "math": "Mathématiques",
+      "teach": "Enseignement",
+      "leader": "Direction"
+    },
+    "edu": {
+      "title": "Formation",
+      "ti": {
+        "title": "Diplôme de bachelier professionnel en informatique appliquée",
+        "date": "2018 - Présent",
+        "extra": "Moyenne pondérée: 83,7%"
+      },
+      "fys": {
+        "title": "Diplôme de bachelier académique en physique",
+        "date": "2016 - 2018",
+        "extra": "Avorté"
+      }
+    },
+    "work": {
+      "title": "Expérience professionnelle",
+      "ticketgang": {
+        "date": "Août 2019",
+        "description": "Développement d’une application permettant le scannage des billets à l’entrée d’un évènement et toute la gestion du personnel et de leur rôle."
+      },
+      "ticketgang2": {
+        "date": "Août 2020",
+        "description": "Développement d’une application d’achat, de réservation et de gestions de tickets d’entrée."
+      }
+    },
+    "ex_cur": {
+      "title": "Activités extra-scolaires",
+      "ibm_hack": {
+        "date": "Octobre 2019",
+        "description": "Participation à un hackathon organisé par IBM. Le business case consistait à créer une application autonome pour l'apple-watch. Notre équipe a proposé un programme qui détermine les ingrédients d’une recette, qui permet de commander tout ou partie de ces ingrédients en ligne et qui met à disposition la recette."
+      },
+      "progr_comp": {
+        "title": "Concours de programmation de la Région flamande",
+        "date": "Mars 2019",
+        "description": "Deuxième place au concours de programmation flamand."
+      },
+      "teach": {
+        "title": "Donner du tutorat",
+        "description": "Je donne des tutorats à des étudiants de première et deuxième année en l'assemblage, le développement Web et la programmation orientée objet."
+      },
+      "chiro": {
+        "date": "2015 - Présent",
+        "description": "Chef du groupe et moniteur chez Chiro Nemas Binkom."
+      }
+    },
+    "contact": {
+      "title": "Informations de contact",
+      "belg": "Belgique"
+    },
+    "lang": {
+      "title": "Langues",
+      "nl": "Néerlandais (langue maternelle)",
+      "en": "Anglais",
+      "fr": "Français"
+    },
+    "progr_lang": {
+      "title": "Langages de programmation"
+    },
+    "fram": {
+      "title": "Frameworks & Libraries"
+    }
+  }
+}
