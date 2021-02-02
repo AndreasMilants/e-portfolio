@@ -10,8 +10,9 @@ class MainComponent extends Component {
                 institution: "UC Leuven-Limburg",
                 date: t("resume.edu.ti.date"),
                 extra: t("resume.edu.ti.extra"),
-                skills: ["Java", "Python", "JavaScript", "C#", "C++", "Elixir", "Spring", "Phoenix", "PostgreSQL",
-                    "Windows", "Linux", t("resume.skills.prot"), t("resume.skills.alg"), t("resume.skills.datas"), "HTML", "CSS"]
+                skills: ["Java", "Python", "JavaScript", "C#", "C++", "Elixir", 'Dart', "Spring", "Phoenix", "Flutter",
+                    "PostgreSQL", "Windows", "Linux", t("resume.skills.prot"), t("resume.skills.alg"),
+                    t("resume.skills.datas"), "HTML", "CSS"]
             },
             {
                 title: t("resume.edu.fys.title"),

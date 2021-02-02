@@ -14,13 +14,13 @@ class ResumeSidebarComponent extends Component {
             {name: "Python", level: 5},
             {name: "JavaScript", level: 4},
             {name: "Java", level: 4},
-            {name: "C#", level: 3},
+            {name: "Elixir", level: 3},
             {name: "C++", level: 3},
-            {name: "Elixir", level: 2},
         ];
 
         const frameworks = [
             {name: "Django", level: 5},
+            {name: "Flutter", level: 3},
             {name: "React JS", level: 3},
             {name: "Spring Boot", level: 2},
         ];
@@ -33,7 +33,9 @@ class ResumeSidebarComponent extends Component {
                         <li>+32476 67 50 50</li>
                         <li>Binkomstraat 133, 3211 Binkom, {t("resume.contact.belg")}</li>
                         <li><a href="https://linkedin.com/in/andreasmilants">linkedin.com/in/andreasmilants</a></li>
-                        <li><a href="https://andreasmilants.github.io/e-portfolio">andreasmilants.github.io/e-portfolio</a></li>
+                        <li><a
+                            href="https://andreasmilants.github.io/e-portfolio">andreasmilants.github.io/e-portfolio</a>
+                        </li>
                     </ul>
                 </section>
                 <section>
