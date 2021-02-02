@@ -45,6 +45,10 @@
       "pThree": "To choose a dish, you could speak to your watch and after that, with the help of the Watson API, we determined what it was you wanted to prepare and for how many people.",
       "pFour": "The name ABC-Cooking is an acronym for Appetite, Buy, Cook. When you decide you have an appetite, you choose a dish. The app would then lead you to the buy stage and eventually help you cook your meal."
     },
+    "abc_cooking2": {
+      "pOne": "For a course called 'Mobile Applications', I had to build a mobile app. I thought about the ABC cooking watch-app I made earlier and thought it to be a great project to work on again. This time though, everything is much more detailed and the app became a finished product.",
+      "pTwo": "The app was entirely made in Flutter, with Django as backend."
+    },
     "arnecrush": {
       "pOne": "Arnecrush is a passion-project I made in my first year of Applied Information Technology. It was a website where my fellow students could play games. The goal was to get as many in-game assets that were based on teachers.",
       "pTwo": "The website, database and all games were hosted on a raspberry pie."
@@ -72,8 +76,8 @@
       "pOne": "In 2020 we (Chiro Nemas Binkom) decided we needed a new website. Untill this moment we were running a wordpress website, but we wanted to create an easier way for our members to enroll.",
       "pTwo": "I decided to build a new website in Django and host it on AWS.",
       "pThree": "The project contains a custom built CMS, photo-gallery application and lots of extra features.",
-      "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment. And is currently being tested on the domain ",
-      "pFourTwo": ". We are planning on migrating to our real domain in the next few weeks."
+      "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment, and will become available on ",
+      "pFourTwo": " in the near future."
     }
   },
   "resume": {

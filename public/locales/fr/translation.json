@@ -45,6 +45,10 @@
       "pThree": "Pour choisir un plat, vous pouvez parler à votre montre et avec l'aide de Watson, il a été déterminé quel plat vous vouliez préparer et pour combien de personnes.",
       "pFour": "Le nom ABC-cooking vient de Appetite, Buy, Cook. Vous décidez que vous avez \"Appetite\" et choisissez un plat. Après cela, vous serez automatiquement dirigé vers l'étape \"Buy\" qui vous ramènera à \"Cook\"."
     },
+    "abc_cooking2": {
+      "pOne": "Pour un cours intitulé «Applications mobiles», j'ai dû créer une application mobile. J'ai pensé à l'application de montre de ABC cooking que j'avais créée plus tôt et j'ai pensé que c'était un excellent projet sur lequel travailler à nouveau. Cette fois, tout est beaucoup plus détaillé et l'application est devenue un produit fini.",
+      "pTwo": "L'application a été entièrement réalisée en Flutter, avec Django comme backend."
+    },
     "arnecrush": {
       "pOne": "Arnecrush est un projet de passion que j'ai créé lors de ma première année d'informatique appliquée. C'était un site Web où mes camarades pouvaient jouer à des jeux. L'intention était que tous les atouts de ces jeux soient basés sur les enseignants.",
       "pTwo": "Le site Web, la base de données et tous les jeux étaient hébergés sur une raspberry pie."
@@ -72,8 +76,8 @@
       "pOne": "En 2020, nous (Chiro Nemas Binkom) avons décidé que nous étions prêts pour un nouveau site Web. Jusqu'à présent, nous utilisions toujours un site Wordpress régulier, mais nous voulions fournir une meilleure façon de vous inscrire en tant que membre de notre Chiro.",
       "pTwo": "J'ai décidé de créer un nouveau site Web en utilisant Django et de l'héberger sur AWS.",
       "pThree": "Le projet comprend un CMS auto-construit, une application de galerie de photos et de nombreuses autres fonctionnalités.",
-      "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle est actuellement testée sur le domaine ",
-      "pFourTwo": ", mais nous prévoyons de passer à notre vrai domaine dans l'une des prochaines semaines."
+      "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle sera disponible prochainement sur ",
+      "pFourTwo": "."
     }
   },
   "resume": {

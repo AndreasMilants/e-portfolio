@@ -45,6 +45,10 @@
       "pThree": "Om een gerecht te kiezen, kon je spreken tegen je horloge en dan werd er met behulp van Watson bepaald welk gerecht je wilde maken en voor hoeveel personen.",
       "pFour": "De naam ABC-cooking komt van Appetite, Buy, Cook. Je beslist dat je \"Appetite\" hebt en kiest een gerecht. Hierna word je automatisch naar de \"Buy\" stap geleid die je daarna weer tot bij \"Cook\" brengt."
     },
+    "abc_cooking2": {
+      "pOne": "Voor een vak genaamd 'Mobile Applications' most ik een mobiele app bouwen. Ik dacht meteen aan de ABC cooking horloge-app die ik eerder maakte en dacht dat dit het ideale project zou zijn. Deze keer had ik echter veel meer tijd om het helemaal uit te werken en werd het werkelijk een finished product.",
+      "pTwo": "De app is helemaal gemaakt met Flutter en met Django als backend."
+    },
     "arnecrush": {
       "pOne": "Arnecrush is een passieproject dat ik heb gemaakt tijdens mijn eerste jaar Toegepaste Informatica. Dit was een website waarop mijn medestudenten spelletjes konden spelen. De bedoeling was dat alle assets in deze spelletjes gebaseerd waren op leerkrachten.",
       "pTwo": "De website, database en alle games werden gehost op een raspberry pie."
@@ -72,8 +76,8 @@
       "pOne": "In 2020 besloten we (Chiro Nemas Binkom) dat we toe waren aan een nieuwe website. Tot dit moment gebruikten we nog een gewone Wordpress-site, maar we wilden een betere manier voorzien om je in te kunnen schrijven als lid voor onze Chiro.",
       "pTwo": "Ik heb besloten een nieuwe website te bouwen met behulp van Django en deze te hosten op AWS.",
       "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij applicatie, en nog vele andere features.",
-      "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Momenteel wordt ze getest op het domein ",
-      "pFourTwo": ", maar we zijn van plan naar ons echte domein over te schakelen in een van de komende weken."
+      "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Ze zal binnenkort beschikbaar zijn op ",
+      "pFourTwo": "."
     }
   },
   "resume": {

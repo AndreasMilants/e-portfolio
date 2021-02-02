@@ -22,7 +22,7 @@ class CnbComponent extends Component {
                 <p className="p">{t("projects.cnb.pThree")}</p>
                 <p className="p">
                     {t("projects.cnb.pFourOne")}
-                    <a href="https://andreasmilants.com">andreasmilants.com</a>
+                    <a href="https://chironemas.be">chironemas.be</a>
                     {t("projects.cnb.pFourTwo")}
                 </p>
                 <CarouselComponent media={media}/>

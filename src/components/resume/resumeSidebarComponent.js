@@ -34,7 +34,7 @@ class ResumeSidebarComponent extends Component {
                         <li>Binkomstraat 133, 3211 Binkom, {t("resume.contact.belg")}</li>
                         <li><a href="https://linkedin.com/in/andreasmilants">linkedin.com/in/andreasmilants</a></li>
                         <li><a
-                            href="https://andreasmilants.com">andreasmilants.github.io/e-portfolio</a>
+                            href="https://andreasmilants.com">andreasmilants.com</a>
                         </li>
                     </ul>
                 </section>

@@ -14,6 +14,7 @@ import NovemComponent from "../projects/projects/novemComponent";
 import TicketgangComponent from "../projects/projects/ticketgangComponent";
 import StarsComponent from "../projects/projects/starsComponent";
 import CnbComponent from "../projects/projects/cnbComponent";
+import AbcCooking2Component from "../projects/projects/abcCooking2Component";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -48,6 +49,9 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/abc-cooking">
                                 <AbcCookingComponent/>
+                            </Route>
+                            <Route exact path="/abc-cooking-mobile">
+                                <AbcCooking2Component/>
                             </Route>
                             <Route exact path="/novem">
                                 <NovemComponent/>

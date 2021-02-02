@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 class CarouselComponent extends Component {
     render() {
+        let multiplier = this.props.multiplier === undefined ? 1 : this.props.multiplier;
         let i = 0;
         const settings = {
             dots: true,
@@ -12,14 +13,14 @@ class CarouselComponent extends Component {
             speed: 500,
             autoplay: true,
             autoplaySpeed: 3500,
-            slidesToShow: 2,
+            slidesToShow: 2 * multiplier,
             arrows: true,
             slidesToScroll: 1,
             responsive: [
                 {
                     breakpoint: 1000,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: multiplier,
                     }
                 }
             ]
