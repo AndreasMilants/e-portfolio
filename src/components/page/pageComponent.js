@@ -15,6 +15,7 @@ import TicketgangComponent from "../projects/projects/ticketgangComponent";
 import StarsComponent from "../projects/projects/starsComponent";
 import CnbComponent from "../projects/projects/cnbComponent";
 import AbcCooking2Component from "../projects/projects/abcCooking2Component";
+import StratvisionComponent from "../projects/projects/stratvisionComponent";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -40,6 +41,9 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/snake">
                                 <SnakeComponent/>
+                            </Route>
+                            <Route exact path="/stratvision">
+                                <StratvisionComponent/>
                             </Route>
                             <Route exact path="/cnb">
                                 <CnbComponent/>

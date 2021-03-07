@@ -78,6 +78,12 @@
       "pThree": "Le projet comprend un CMS auto-construit, une application de galerie de photos et de nombreuses autres fonctionnalités.",
       "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle sera disponible prochainement sur ",
       "pFourTwo": "."
+    },
+    "stratvision": {
+      "pOne": "En tant que projet final dans la dernière année de mon Bachelor, j'ai construit une application web pour Stratvision. Stratvision est un jeu d'entreprise qui se joue en équipes d'étudiants internationaux.",
+      "pTwo": "Le but du projet était de rendre l'ensemble du jeu modifiable par des personnes sans connaissance en programmation. Pour résoudre ce problème, j'ai inventé le 'node-editor' que vous pouvez voir dans l'image ci-dessus. Le node-editor se compose de différents types de nœuds qui vous permettent de créer la logique d'un jeu d'entreprise entier à partir de votre navigateur.",
+      "pThree": "Lorsque vous avez modifié votre logique d'entreprise, vous devez être en mesure de modifier la manière dont des éléments tels que les rapports et les graphiques sont générés. Ceux-ci peuvent également être facilement modifiés via le site Web.",
+      "pFour": "Le résultat est un produit complètement fini, avec lequel les étudiants peuvent jouer à un jeu d'entreprise. Entre les tours, les rapports sont générés automatiquement en interprétant la logique qui a été construite par un administrateur."
     }
   },
   "resume": {

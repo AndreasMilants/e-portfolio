@@ -12,6 +12,12 @@ class ProjectsComponent extends Component {
                     <h2>{t("projects.title")}</h2>
                     <ul id="projects-list">
                         <li>
+                            <Link to="/stratvision#top">
+                                <img src={process.env.PUBLIC_URL + "/stratvision/node-editor.png"} alt="Stratvision"/>
+                                <h3>Stratvision</h3>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/cnb#top">
                                 <img src={process.env.PUBLIC_URL + "/cnb/homepage_small.png"} alt="Chiro Nemas Binkom"/>
                                 <h3>Chiro Nemas</h3>
@@ -42,15 +48,15 @@ class ProjectsComponent extends Component {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/novem#top">
-                                <img src={process.env.PUBLIC_URL + "/novem/novem.png"} alt="Novem"/>
-                                <h3>Novem</h3>
-                            </Link>
-                        </li>
-                        <li>
                             <Link to="/ticketgang#top">
                                 <img src={process.env.PUBLIC_URL + "/ticketgang/ticketgang.jpg"} alt="TicketGang"/>
                                 <h3>TicketGang</h3>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/novem#top">
+                                <img src={process.env.PUBLIC_URL + "/novem/novem.png"} alt="Novem"/>
+                                <h3>Novem</h3>
                             </Link>
                         </li>
                         <li>

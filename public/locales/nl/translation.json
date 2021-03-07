@@ -46,7 +46,7 @@
       "pFour": "De naam ABC-cooking komt van Appetite, Buy, Cook. Je beslist dat je \"Appetite\" hebt en kiest een gerecht. Hierna word je automatisch naar de \"Buy\" stap geleid die je daarna weer tot bij \"Cook\" brengt."
     },
     "abc_cooking2": {
-      "pOne": "Voor een vak genaamd 'Mobile Applications' most ik een mobiele app bouwen. Ik dacht meteen aan de ABC cooking horloge-app die ik eerder maakte en dacht dat dit het ideale project zou zijn. Deze keer had ik echter veel meer tijd om het helemaal uit te werken en werd het werkelijk een finished product.",
+      "pOne": "Voor een vak genaamd 'Mobile Applications' moest ik een mobiele app bouwen. Ik dacht meteen aan de ABC cooking horloge-app die ik eerder maakte en dacht dat dit het ideale project zou zijn. Deze keer had ik echter veel meer tijd om het helemaal uit te werken en werd het werkelijk een finished product.",
       "pTwo": "De app is helemaal gemaakt met Flutter en met Django als backend."
     },
     "arnecrush": {
@@ -78,6 +78,12 @@
       "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij applicatie, en nog vele andere features.",
       "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Ze zal binnenkort beschikbaar zijn op ",
       "pFourTwo": "."
+    },
+    "stratvision": {
+      "pOne": "Als eindproject in mijn bachelorstudies maakte ik een webapplicatie voor Stratvision. Stratvision is een businessgame, die gespeeld wordt in teams van internationale studenten.",
+      "pTwo": "Het doel van het project was om zoveel mogelijk functionaliteiten aanpasbaar te maken door mensen zonder technische kennis. Om dit probleem aan te pakken, bedacht ik de node-editor die je in de foto ziet. De node-editor bestaat uit verschillende type nodes die je in staat stellen een hele businessgame te ontwikkelen vanuit je browser.",
+      "pThree": "Uiteraard moet je na het aanpassen van de businesslogica ook in staat zijn om dingen als  gegenereerde rapporten en grafieken aan te passen. Ook deze kunnen dus heel eenvoudig via de website aangepast worden.",
+      "pFour": "Het resultaat is een volledig uitgewerkte applicatie waarbij studenten in teams een businessgame kunnen spelen. Op het einde van rondes in het spel worden er automatisch rapporten gegenereerd met behulp van de logica, die is gedefinieerd door administratoren."
     }
   },
   "resume": {
