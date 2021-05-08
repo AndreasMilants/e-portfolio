@@ -20,14 +20,11 @@ class ScrabbleComponent extends Component {
     componentDidMount() {
         let xhr = new XMLHttpRequest();
         let that = this;
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                that.setState({...that.state, wordset: new Set(xhr.responseText.split('\r\n'))});
-                console.log(that.state.wordset);
-            }
-        }
-        xhr.open('GET', '/scrabble/dutch.txt');
-        xhr.send();
+        fetch("/scrabble/dutch.txt").then(response => response.arrayBuffer()).then(buffer => {
+            let decoder = new TextDecoder("utf-8");
+            let data = decoder.decode(buffer);
+            that.setState({...that.state, wordset: new Set(data.split('\r\n'))});
+        });
     }
 
     render() {
@@ -39,15 +36,19 @@ class ScrabbleComponent extends Component {
                 <div>
                     <BoardComponent state={this.state} getLetter={this.getLetter} getMultiplier={this.getMultiplier}
                                     changeLetter={this.changeLetter}/>
-                                    <hr/>
-                    <div className={"unused-tiles"}>{(this.state.lttrs + "       ").substring(0, 7).split("").map(l => <div>
-                        <div><span>{l}</span></div>
-                    </div>)}</div>
+                    <hr/>
+                    <div className={"unused-tiles"}>{(this.state.lttrs + "       ").substring(0, 7).split("").map(l =>
+                        <div>
+                            <div><span>{l}</span></div>
+                        </div>)}</div>
                     <form onSubmit={this.test} style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                        <input style={{margin: ".5rem", border: "1px solid #eee", padding: 10}} type="text" value={this.state.lttrs}
+                        <input style={{margin: ".5rem", border: "1px solid #eee", padding: 10}} type="text"
+                               value={this.state.lttrs}
                                onChange={this.handleLetterInput}/>
                         <button style={{margin: ".5rem"}} className={"md-button"} type="submit">Enter</button>
-                        <button className={"md-button"} style={{background: "darkred"}} onClick={this.clearBoard}>Clear board</button>
+                        <button className={"md-button"} style={{background: "darkred"}} onClick={this.clearBoard}>Clear
+                            board
+                        </button>
                     </form>
                 </div>
             </article>
