@@ -23,6 +23,7 @@ class ScrabbleComponent extends Component {
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 that.setState({...that.state, wordset: new Set(xhr.responseText.split('\r\n'))});
+                console.log(that.state.wordset);
             }
         }
         xhr.open('GET', '/scrabble/dutch.txt');
