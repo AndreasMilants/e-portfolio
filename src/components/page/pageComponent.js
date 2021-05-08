@@ -16,6 +16,7 @@ import StarsComponent from "../projects/projects/starsComponent";
 import CnbComponent from "../projects/projects/cnbComponent";
 import AbcCooking2Component from "../projects/projects/abcCooking2Component";
 import StratvisionComponent from "../projects/projects/stratvisionComponent";
+import ScrabbleComponent from "../projects/projects/scrabble/scrabbleComponent";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -65,6 +66,9 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/stars">
                                 <StarsComponent/>
+                            </Route>
+                            <Route exact path="/scrabble">
+                                <ScrabbleComponent dimensions={15}/>
                             </Route>
                             <Route path="">
                                 <AboutComponent/>

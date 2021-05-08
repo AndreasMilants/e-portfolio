@@ -42,6 +42,12 @@ class ProjectsComponent extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/scrabble#top">
+                                <img src={process.env.PUBLIC_URL + "/scrabble/scrabble.png"} alt="Scrabble solver"/>
+                                <h3>Scrabble solver</h3>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/snake#top">
                                 <video src={process.env.PUBLIC_URL + "/snake/snake_small.mov"} autoPlay muted loop/>
                                 <h3>Snake AI</h3>

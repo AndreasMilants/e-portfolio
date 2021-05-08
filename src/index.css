@@ -12,6 +12,22 @@ html {
     font-size: 1rem;
 }
 
+.md-button {
+    background-color: #500000;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+}
+
+.md-button:hover {
+    box-shadow: 0 1px 2px #777;
+}
+
 img, video {
     max-width: 100%;
     height: auto;
@@ -469,13 +485,110 @@ a .material-icons {
 }
 
 .slick-prev:before, .slick-next:before {
-    color:#104080 !important;
+    color: #104080 !important;
 }
 
-.slick-list {margin: 0 -5px;}
-.slick-slide>div {padding: 0 5px;}
+.slick-list {
+    margin: 0 -5px;
+}
+
+.slick-slide > div {
+    padding: 0 5px;
+}
+
+
+.tile {
+    display: grid;
+    padding: 1px;
+}
+
+.unused-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50px);
+    grid-gap: .5rem;
+    justify-content: center;
+}
+
+.unused-tiles div {
+    display: grid;
+    background: rgb(250, 220, 150);
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    color: black;
+}
+
+.unused-tiles div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
+
+.unused-tiles div::before, .unused-tiles div div {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.unused-tiles div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
+
+.tile::before, .tile input {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.tile input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(200, 200, 200);
+    border: none;
+    text-align: center;
+}
+
+.unused-tile, .tile input {
+    font-size: 1rem;
+}
+
+.line {
+    display: grid;
+}
+
+.l2 input {
+    background: rgb(60, 190, 250);
+}
+
+.w2 input {
+    background: rgb(255, 150, 150);
+}
+
+.l3 input {
+    background: rgb(10, 90, 180);
+}
+
+.w3 input {
+    background: rgb(250, 0, 0);
+}
+
+.filled input {
+    background: rgb(250, 220, 150);
+    font-weight: 700;
+    border-radius: 10%;
+    color: black;
+}
 
 @media screen and (min-width: 1088px) {
+    .tile {
+        padding: 3px;
+    }
+
     #about-me > div {
         max-width: 100%;
         display: grid;
