@@ -84,6 +84,9 @@
       "pTwo": "Het doel van het project was om zoveel mogelijk functionaliteiten aanpasbaar te maken door mensen zonder technische kennis. Om dit probleem aan te pakken, bedacht ik de node-editor die je in de foto ziet. De node-editor bestaat uit verschillende type nodes die je in staat stellen een hele businessgame te ontwikkelen vanuit je browser.",
       "pThree": "Uiteraard moet je na het aanpassen van de businesslogica ook in staat zijn om dingen als  gegenereerde rapporten en grafieken aan te passen. Ook deze kunnen dus heel eenvoudig via de website aangepast worden.",
       "pFour": "Het resultaat is een volledig uitgewerkte applicatie waarbij studenten in teams een businessgame kunnen spelen. Op het einde van rondes in het spel worden er automatisch rapporten gegenereerd met behulp van de logica, die is gedefinieerd door administratoren."
+    },
+    "scrabble": {
+      "pOne": "Vul het bord, typ je beschikbare letters onderaan en vind de oplossing die je het meeste punten oplevert!"
     }
   },
   "resume": {

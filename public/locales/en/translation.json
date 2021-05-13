@@ -84,6 +84,9 @@
       "pTwo": "The goal of the project was to make the entire game editable by people without any programming knowledge. As a solution to this problem I invented the node-editor you can see in the picture above. The node-editor consists of different types of nodes who allow you to build the logic for an entire businessgame, all from your browser.",
       "pThree": "When you've changed your businesslogic, you have to be able to change the way in which things like reports and charts are generated. These can be easily edited as well through the website.",
       "pFour": "The result is a completely finished product, with which students can play a businessgame. Between rounds, reports are generated automatically by interpreting the logic that was built by an administrator."
+    },
+    "scrabble": {
+      "pOne": "Fill in the board, enter your available tiles and find the solution which gives you the most Scrabble points! (This uses a Dutch dictionary)"
     }
   },
   "resume": {

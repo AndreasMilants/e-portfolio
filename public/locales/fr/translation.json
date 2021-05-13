@@ -84,6 +84,9 @@
       "pTwo": "Le but du projet était de rendre l'ensemble du jeu modifiable par des personnes sans connaissance en programmation. Pour résoudre ce problème, j'ai inventé le 'node-editor' que vous pouvez voir dans l'image ci-dessus. Le node-editor se compose de différents types de nœuds qui vous permettent de créer la logique d'un jeu d'entreprise entier à partir de votre navigateur.",
       "pThree": "Lorsque vous avez modifié votre logique d'entreprise, vous devez être en mesure de modifier la manière dont des éléments tels que les rapports et les graphiques sont générés. Ceux-ci peuvent également être facilement modifiés via le site Web.",
       "pFour": "Le résultat est un produit complètement fini, avec lequel les étudiants peuvent jouer à un jeu d'entreprise. Entre les tours, les rapports sont générés automatiquement en interprétant la logique qui a été construite par un administrateur."
+    },
+    "scrabble": {
+      "pOne": "Remplissez le tableau, entrez vos tuiles disponibles et trouvez la solution qui vous donne le plus de points au Scrabble! (Cela utilise un dictionnaire néerlandais)"
     }
   },
   "resume": {

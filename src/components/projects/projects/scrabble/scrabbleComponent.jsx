@@ -34,6 +34,7 @@ class ScrabbleComponent extends Component {
         return (
             <article>
                 <h1>Scrabble</h1>
+                <p className="p">{t("projects.scrabble.pOne")}</p>
                 <div>
                     <BoardComponent state={this.state} getLetter={this.getLetter} getMultiplier={this.getMultiplier}
                                     changeLetter={this.changeLetter}/>
@@ -47,7 +48,7 @@ class ScrabbleComponent extends Component {
                                value={this.state.lttrs}
                                onChange={this.handleLetterInput}/>
                         <button style={{margin: ".5rem"}} className={"md-button"} type="submit">Enter</button>
-                        <button className={"md-button"} style={{background: "darkred"}} onClick={this.clearBoard}>Clear
+                        <button className={"md-button"} type="button" style={{background: "darkred"}} onClick={this.clearBoard}>Clear
                             board
                         </button>
                     </form>
