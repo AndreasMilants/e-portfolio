@@ -23,7 +23,9 @@ class ScrabbleComponent extends Component {
             .then(buffer => {
                 let decoder = new TextDecoder("utf-8");
                 let text = decoder.decode(buffer);
+                console.log(text);
                 this.setState({...this.state, wordset: new Set(text.split('\r\n'))});
+                console.log(this.state.wordset);
             });
     }
 
