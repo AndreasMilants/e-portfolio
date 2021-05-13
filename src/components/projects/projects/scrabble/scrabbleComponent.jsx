@@ -18,13 +18,13 @@ class ScrabbleComponent extends Component {
     }
 
     componentDidMount() {
-        let xhr = new XMLHttpRequest();
-        let that = this;
-        fetch("/scrabble/dutch.txt").then(response => response.arrayBuffer()).then(buffer => {
-            let decoder = new TextDecoder("utf-8");
-            let data = decoder.decode(buffer);
-            that.setState({...that.state, wordset: new Set(data.split('\r\n'))});
-        });
+        fetch('/scrabble/dutch.txt')
+            .then(response => response.arrayBuffer())
+            .then(buffer => {
+                let decoder = new TextDecoder("utf-8");
+                let text = decoder.decode(buffer);
+                this.setState({...this.state, wordset: new Set(text.split('\r\n'))});
+            });
     }
 
     render() {
