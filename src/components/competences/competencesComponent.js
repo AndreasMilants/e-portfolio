@@ -8,28 +8,27 @@ class CompetencesComponent extends Component {
         const competences = [
             {
                 name: t("competences.backend_dev.title"),
-                descr: t("competences.backend_dev.descr"),
                 info: ["Django", "Spring boot", "Phoenix"]
             },
             {
                 name: t("competences.frontend_dev.title"),
-                descr: t("competences.frontend_dev.descr"),
-                info: ["React", "HTML", "CSS", "JQuery"]
+                info: ["Vue", "React", "HTML", "CSS", "JQuery"]
             },
             {
                 name: t("competences.app_dev.title"),
-                descr: t("competences.app_dev.descr"),
                 info: ["Flutter", "Xamarin"]
             },
             {
                 name: t("competences.algo.title"),
-                descr: t("competences.algo.descr"),
                 info: [t("competences.algo.second_place")]
             },
             {
                 name: t('competences.databases.title'),
-                descr: t('competences.databases.descr'),
-                info: ["PostgreSQL", "MySQL"]
+                info: ["PostgreSQL", "Neo4j", "MySQL"]
+            },
+            {
+                name: t('competences.other.title'),
+                info: ["AWS", "Plotly Dash", "Pandas"]
             }
         ];
 

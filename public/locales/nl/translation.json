@@ -8,25 +8,23 @@
   "competences": {
     "title": "Skills",
     "backend_dev": {
-      "title": "Backend webontwikkeling",
-      "descr": "Hoog"
+      "title": "Backend webontwikkeling"
     },
     "frontend_dev": {
-      "title": "Frontend webontwikkeling",
-      "descr": "Gemiddeld"
+      "title": "Frontend webontwikkeling"
     },
     "app_dev": {
-      "title": "App ontwikkeling",
-      "descr": "Gemiddeld"
+      "title": "App ontwikkeling"
     },
     "algo": {
       "title": "Algoritmen & Datastructuren",
-      "descr": "Hoog",
       "second_place": "Tweede plaats Vlaamse Programmeerwedstrijd"
     },
     "databases": {
-      "title": "Databanken",
-      "descr": "Gemiddeld"
+      "title": "Databanken"
+    },
+    "other": {
+      "title": "Andere"
     },
     "level": "Niveau",
     "exp": "Ervaring"

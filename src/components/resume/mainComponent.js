@@ -27,7 +27,7 @@ class MainComponent extends Component {
                 title: "RiskConcile",
                 date: t("resume.work.riskconcile.date"),
                 description: t("resume.work.riskconcile.description"),
-                skills: ["Python", "Django", "Vue", "Plotly Dash", "Pandas", t('resume.skills.stock')]
+                skills: ["Python", "Django", "Vue", "AWS", "Plotly Dash", "Pandas", t('resume.skills.stock')]
             },
             {
                 title: "TicketGang",

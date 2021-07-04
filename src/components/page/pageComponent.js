@@ -6,7 +6,7 @@ import CompetencesComponent from "../competences/competencesComponent";
 import ProjectsComponent from "../projects/projectsComponent";
 import ResumeComponent from "../resume/resumeComponent";
 import {Route, Switch} from "react-router";
-import {HashRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import ArnecrushComponent from "../projects/projects/arnecrushComponent";
 import SnakeComponent from "../projects/projects/snakeComponent";
 import AbcCookingComponent from "../projects/projects/abcCookingComponent";

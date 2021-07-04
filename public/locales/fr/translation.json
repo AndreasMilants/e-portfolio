@@ -8,25 +8,23 @@
   "competences": {
     "title": "Compétences",
     "backend_dev": {
-      "title": "Développement web backend",
-      "descr": "Haut niveau"
+      "title": "Développement web backend"
     },
     "frontend_dev": {
-      "title": "Développement web frontend",
-      "descr": "Niveau moyen"
+      "title": "Développement web frontend"
     },
     "app_dev": {
-      "title": "Développement d'applications mobiles",
-      "descr": "Niveau moyen"
+      "title": "Développement d'applications mobiles"
     },
     "algo": {
       "title": "Algorithmes et structures de données",
-      "descr": "Haut niveau",
       "second_place": "Concours de programmation flamand deuxième place"
     },
     "databases": {
-      "title": "Bases de données",
-      "descr": "Haut niveau"
+      "title": "Bases de données"
+    },
+    "other": {
+      "title": "Autre"
     },
     "level": "Niveau",
     "exp": "Expérience"

@@ -233,7 +233,7 @@ a .material-icons {
     padding: 0 1rem;
     list-style-type: none;
     background-color: #FFFFFF;
-    transition: .4s ease;
+    transition: max-height .14s ease-in-out, padding .4s ease;
 }
 
 #competences-list li > div.open:last-child {
@@ -252,9 +252,13 @@ a .material-icons {
 }
 
 #competences-list ul li {
+    position: relative;
+    left: -100rem;
+    max-height: 0;
     display: inline-block;
     margin: 0 .3rem;
     padding: 0 .8rem;
+    overflow: hidden;
     background-color: #E0E0E0;
     border-radius: 5rem;
     transition: .4s ease;
@@ -263,6 +267,8 @@ a .material-icons {
 }
 
 #competences-list li > .open li {
+    left: 0;
+    max-height: 2rem;
     margin: .3rem;
     padding: .8rem;
 }
@@ -315,12 +321,18 @@ a .material-icons {
     right: .5rem;
     padding: .5rem;
     background-color: #104080;
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
     font-size: 1.3rem;
     font-weight: bold;
     color: white;
     cursor: pointer;
+    box-shadow: 1px 1px 4px -5px #666;
+    transition: .3s ease;
+}
+
+.print-button:hover {
+    box-shadow: 1px 1px 7px -1px #666;
 }
 
 #resume, #resume a {
@@ -614,6 +626,8 @@ a .material-icons {
     }
 
     #competences-list ul li {
+        left: 0;
+        max-height: 2rem;
         margin: .3rem;
         padding: .8rem;
     }

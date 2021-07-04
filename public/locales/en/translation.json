@@ -8,25 +8,23 @@
   "competences": {
     "title": "Skills",
     "backend_dev": {
-      "title": "Backend webdevelopment",
-      "descr": "Advanced"
+      "title": "Backend webdevelopment"
     },
     "frontend_dev": {
-      "title": "Frontend webdevelopment",
-      "descr": "Medium"
+      "title": "Frontend webdevelopment"
     },
     "app_dev": {
-      "title": "App development",
-      "descr": "Medium"
+      "title": "App development"
     },
     "algo": {
       "title": "Algorithms & Datastructures",
-      "descr": "Advanced",
       "second_place": "Second place \"Vlaamse Programmeerwedstrijd\""
     },
     "databases": {
-      "title": "Databases",
-      "descr": "Medium"
+      "title": "Databases"
+    },
+    "other": {
+      "title": "Other"
     },
     "level": "Level",
     "exp": "Experience"
@@ -114,7 +112,7 @@
       "title": "Work Experience",
       "ticketgang": {
         "date": "August 2019 & August 2020",
-        "description": "Built an app for event-organizers and another one for customers to buy tickets."
+        "description": "Built two mobile applications. One for event-organizers for scanning tickets at entrances, and one for customers for buying tickets."
       },
       "riskconcile": {
         "date": "March 2021 - Present",
