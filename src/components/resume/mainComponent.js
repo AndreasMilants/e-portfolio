@@ -8,32 +8,32 @@ class MainComponent extends Component {
             {
                 title: t("resume.edu.ti.title"),
                 institution: "UC Leuven-Limburg",
-                date: t("resume.edu.ti.date"),
-                extra: t("resume.edu.ti.extra"),
+                date: "2018 - 2021",
+                extra: "Magna cum laude",
                 skills: ["Java", "Python", "JavaScript", "C#", "C++", "Elixir", 'Dart', "Spring", "Phoenix", "Flutter",
                     "PostgreSQL", "Windows", "Linux", t("resume.skills.prot"), t("resume.skills.alg"),
-                    t("resume.skills.datas"), "HTML", "CSS"]
+                    t("resume.skills.datas")]
             },
             {
                 title: t("resume.edu.fys.title"),
                 institution: "KU Leuven",
-                date: t("resume.edu.fys.date"),
+                date: "2016 - 2018",
                 extra: t("resume.edu.fys.extra"),
                 skills: ["Python", "Numpy", "SciPy", t("resume.skills.math")]
             }
         ];
         const work = [
             {
+                title: "RiskConcile",
+                date: t("resume.work.riskconcile.date"),
+                description: t("resume.work.riskconcile.description"),
+                skills: ["Python", "Django", "Vue", "Plotly Dash", "Pandas", t('resume.skills.stock')]
+            },
+            {
                 title: "TicketGang",
                 date: t("resume.work.ticketgang.date"),
                 description: t("resume.work.ticketgang.description"),
                 skills: ["Xamarin", "C#", ".NET"]
-            },
-            {
-                title: "TicketGang",
-                date: t("resume.work.ticketgang2.date"),
-                description: t("resume.work.ticketgang2.description"),
-                skills: ["Xamarin", "C#", ".NET", "Firebase"]
             },
         ];
         const extracurricular = [
@@ -57,7 +57,7 @@ class MainComponent extends Component {
             },
             {
                 title: "Chiro Nemas Binkom",
-                date: t("resume.ex_cur.chiro.date"),
+                date: "2015 - 2021",
                 description: t("resume.ex_cur.chiro.description"),
                 skills: [t("resume.skills.leader")]
             }
