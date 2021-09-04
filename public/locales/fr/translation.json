@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "À propos de moi",
-    "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée à l'University College Leuven-Limburg.",
+    "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée.",
     "pTwo": "Dans mon temps libre, je passe la plupart de mon temps à créer différentes applications. Celles-ci vont de la création d'un simple site Web au développement de réseaux de neurones.",
     "pThree": "Le temps qu'il me reste, je le consacre à mes deux passe-temps: Chiro et football. Je suis moniteur chez Chiro Nemas Binkom depuis 2015 et depuis 2018 je suis également chef de groupe."
   },
@@ -74,7 +74,7 @@
       "pOne": "En 2020, nous (Chiro Nemas Binkom) avons décidé que nous étions prêts pour un nouveau site Web. Jusqu'à présent, nous utilisions toujours un site Wordpress régulier, mais nous voulions fournir une meilleure façon de vous inscrire en tant que membre de notre Chiro.",
       "pTwo": "J'ai décidé de créer un nouveau site Web en utilisant Django et de l'héberger sur AWS.",
       "pThree": "Le projet comprend un CMS auto-construit, une application de galerie de photos et de nombreuses autres fonctionnalités.",
-      "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle sera disponible prochainement sur ",
+      "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle est disponible sur ",
       "pFourTwo": "."
     },
     "stratvision": {
@@ -100,6 +100,10 @@
     },
     "edu": {
       "title": "Formation",
+      "kul_ti": {
+        "title": "Master Technologie de l'Information Appliquée",
+        "extra": "Année de transition (programme préparatoire)"
+      },
       "ti": {
         "title": "Diplôme de bachelier professionnel en informatique appliquée"
       },
@@ -115,7 +119,7 @@
         "description": "Responsable de la création de 2 applications mobiles. Un pour les organisateurs d'événements pour scanner les billets et un pour les clients pour acheter des billets."
       },
       "riskconcile": {
-        "date": "Mars 2021 - Présent",
+        "date": "Mars 2021 - Septembre 2021",
         "description": "En tant que développeur full stack, je suis responsable de nombreuses applications différentes dans le front-end et le backend."
       }
     },

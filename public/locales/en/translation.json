@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "About me",
-    "pOne": "I am Andreas Milants and I am a student Applied Information Technology at University College Leuven-Limburg.",
+    "pOne": "I am Andreas Milants and I study Applied Information Technology at KU Leuven.",
     "pTwo": "Most of my spare time is spent making lots of different applications. These range from making a simple website to working with Neural Networks.",
     "pThree": "The time that I've got left, I spend on my two hobbies: Chiro and football. I've been monitor at Chiro Nemas Binkom since 2015 and since 2018 I am head monitor."
   },
@@ -74,8 +74,8 @@
       "pOne": "In 2020 we (Chiro Nemas Binkom) decided we needed a new website. Untill this moment we were running a wordpress website, but we wanted to create an easier way for our members to enroll.",
       "pTwo": "I decided to build a new website in Django and host it on AWS.",
       "pThree": "The project contains a custom built CMS, photo-gallery application and lots of extra features.",
-      "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment, and will become available on ",
-      "pFourTwo": " in the near future."
+      "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment, and is currently available on ",
+      "pFourTwo": "."
     },
     "stratvision": {
       "pOne": "As a final project in my bachelor studies, I built a webapplication for Stratvision. Stratvision is a businessgame that is played in teams of international students.",
@@ -100,6 +100,10 @@
     },
     "edu": {
       "title": "Education",
+      "kul_ti": {
+        "title": "Master in Applied Information Technology",
+        "extra": "Transition year (preparatory program)"
+      },
       "ti": {
         "title": "Bachelor in Applied Information Technology"
       },
@@ -115,7 +119,7 @@
         "description": "Built two mobile applications. One for event-organizers for scanning tickets at entrances, and one for customers for buying tickets."
       },
       "riskconcile": {
-        "date": "March 2021 - Present",
+        "date": "March 2021 - September 2021",
         "description": "As a full stack developer I am responsible for lots of different applications in the front-end and backend."
       }
     },

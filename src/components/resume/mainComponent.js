@@ -6,6 +6,13 @@ class MainComponent extends Component {
         const {t} = this.props;
         const educations = [
             {
+                title: t("resume.edu.kul_ti.title"),
+                institution: "KU Leuven",
+                date: "2021 - 2022",
+                extra: t("resume.edu.kul_ti.extra"),
+                skills: []
+            },
+            {
                 title: t("resume.edu.ti.title"),
                 institution: "UC Leuven-Limburg",
                 date: "2018 - 2021",

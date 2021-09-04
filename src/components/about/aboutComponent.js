@@ -12,7 +12,9 @@ class AboutComponent extends Component {
                     <span id="about" className="link"/>
                     <h2>{t("about.title")}</h2>
                     <div>
-                        <img src={process.env.PUBLIC_URL + "/profiel_foto.jpg"} alt="Andreas Milants"/>
+                        <div>
+                            <img src={process.env.PUBLIC_URL + "/profiel_foto.jpg"} alt="Andreas Milants"/>
+                        </div>
                         <div>
                             <p>{t("about.pOne")}</p>
                             <p>{t("about.pTwo")}</p>

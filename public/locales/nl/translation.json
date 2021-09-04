@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "Over mij",
-    "pOne": "Ik ben Andreas Milants en ik ben student Toegepaste Informatica aan University College Leuven-Limburg.",
+    "pOne": "Ik ben Andreas Milants en ik ben student Toegepaste Informatica aan KU Leuven.",
     "pTwo": "In mijn vrije tijd besteed ik de meeste tijd aan het maken van verschillende applicaties. Deze gaan van het maken van een eenvoudige website tot het uitwerken van Neural Networks.",
     "pThree": "De tijd die ik dan nog over heb, spendeer ik aan mijn twee hobby's: Chiro en voetbal. Ik ben leiding in Chiro Nemas Binkom sinds 2015 en sinds 2018 ben ik er ook groepsleiding."
   },
@@ -74,7 +74,7 @@
       "pOne": "In 2020 besloten we (Chiro Nemas Binkom) dat we toe waren aan een nieuwe website. Tot dit moment gebruikten we nog een gewone Wordpress-site, maar we wilden een betere manier voorzien om je in te kunnen schrijven als lid voor onze Chiro.",
       "pTwo": "Ik heb besloten een nieuwe website te bouwen met behulp van Django en deze te hosten op AWS.",
       "pThree": "Het project bevat een zelfgebouwd CMS, een foto-galerij applicatie, en nog vele andere features.",
-      "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Ze zal binnenkort beschikbaar zijn op ",
+      "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Ze is beschikbaar op ",
       "pFourTwo": "."
     },
     "stratvision": {
@@ -100,6 +100,10 @@
     },
     "edu": {
       "title": "Opleiding",
+      "kul_ti": {
+        "title": "Master in de Toegepaste Informatica",
+        "extra": "Schakeljaar (voorbereidingsprogramma)"
+      },
       "ti": {
         "title": "Bachelor in de Toegepaste Informatica"
       },
@@ -115,7 +119,7 @@
         "description": "Verantwoordelijk voor het bouwen van 2 mobiele applicaties. Eén voor organisatoren van evenementen om tickets te scannen, en één voor klanten om tickets te kopen."
       },
       "riskconcile": {
-        "date": "Maart 2021 - Nu",
+        "date": "Maart 2021 - September 2021",
         "description": "Als een full stack developer ben ik verantwoordelijk voor verschillende applicaties in zowel de front-end als backend."
       }
     },
