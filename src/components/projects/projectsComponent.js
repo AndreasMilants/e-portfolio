@@ -65,12 +65,6 @@ class ProjectsComponent extends Component {
                                 <h3>Novem</h3>
                             </Link>
                         </li>
-                        <li>
-                            <Link to="/stars#top">
-                                <img src={process.env.PUBLIC_URL + "/stars4everyone/stars.png"} alt="Stars 4 Everyone!"/>
-                                <h3>Stars 4 Everyone!</h3>
-                            </Link>
-                        </li>
                     </ul>
                 </article>
             </React.Fragment>

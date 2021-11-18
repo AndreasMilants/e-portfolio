@@ -1,9 +1,9 @@
 {
   "about": {
     "title": "À propos de moi",
-    "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée.",
-    "pTwo": "Dans mon temps libre, je passe la plupart de mon temps à créer différentes applications. Celles-ci vont de la création d'un simple site Web au développement de réseaux de neurones.",
-    "pThree": "Le temps qu'il me reste, je le consacre à mes deux passe-temps: Chiro et football. Je suis moniteur chez Chiro Nemas Binkom depuis 2015 et depuis 2018 je suis également chef de groupe."
+    "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée à KU Leuven.",
+    "pTwo": "Dans mon temps libre, je passe la plupart de mon temps à créer différentes applications. Celles-ci vont du travail avec des systèmes distribués au développement de réseaux de neurones.",
+    "pThree": "Je fais aussi beaucoup de sport. Je joue au football au FC Binkom et j'aime courir un peu de temps en temps."
   },
   "competences": {
     "title": "Compétences",

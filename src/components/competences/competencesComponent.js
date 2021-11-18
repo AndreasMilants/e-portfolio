@@ -8,7 +8,7 @@ class CompetencesComponent extends Component {
         const competences = [
             {
                 name: t("competences.backend_dev.title"),
-                info: ["Django", "Spring boot", "Phoenix"]
+                info: ["Django", "FastApi", "Spring boot", "Phoenix"]
             },
             {
                 name: t("competences.frontend_dev.title"),
@@ -24,7 +24,7 @@ class CompetencesComponent extends Component {
             },
             {
                 name: t('competences.databases.title'),
-                info: ["PostgreSQL", "Neo4j", "MySQL"]
+                info: ["PostgreSQL", "Neo4j", "MySQL", "DynamoDB"]
             },
             {
                 name: t('competences.other.title'),

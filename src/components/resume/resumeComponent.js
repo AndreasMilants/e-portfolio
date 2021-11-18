@@ -12,7 +12,7 @@ class ResumeComponent extends Component {
                     <span id="resume" className="link"/>
                     <section id="resume">
                         <section className="header">
-                            <img src={process.env.PUBLIC_URL + "/profiel_foto.jpg"} alt="Andreas Milants"/>
+                            <img src={process.env.PUBLIC_URL + "/profielfoto.jpg"} alt="Andreas Milants"/>
                             <div>
                                 <h3>Andreas Milants</h3>
                                 <p>

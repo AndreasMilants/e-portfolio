@@ -64,6 +64,7 @@ class PageComponent extends Component {
                             <Route exact path="/ticketgang">
                                 <TicketgangComponent/>
                             </Route>
+                            {/*I'll keep this here for the moment, but no visible link remains*/}
                             <Route exact path="/stars">
                                 <StarsComponent/>
                             </Route>

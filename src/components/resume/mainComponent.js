@@ -10,7 +10,7 @@ class MainComponent extends Component {
                 institution: "KU Leuven",
                 date: "2021 - 2022",
                 extra: t("resume.edu.kul_ti.extra"),
-                skills: []
+                skills: ["Prolog", "Haskell"]
             },
             {
                 title: t("resume.edu.ti.title"),
