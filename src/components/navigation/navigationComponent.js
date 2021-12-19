@@ -1,16 +1,16 @@
 import React, {Component} from "react";
-import { NavHashLink as Link } from 'react-router-hash-link';
+import {NavHashLink as Link} from 'react-router-hash-link';
 import ContactComponent from "./contact/contactComponent";
-import { withTranslation } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 
 class NavigationComponent extends Component {
     render() {
-        const { t } = this.props;
+        const {t} = this.props;
 
         const links = [
             {href: "/#about", icon: "portrait", name: t('navigation.about')},
-            {href: "/#competences", icon: "category", name: t('navigation.competences')},
             {href: "/#projects", icon: "laptop", name: t('navigation.projects')},
+            {href: "/#competences", icon: "category", name: t('navigation.competences')},
             {href: "/resume#top", icon: "school", name: t('navigation.resume')},
         ];
         return (

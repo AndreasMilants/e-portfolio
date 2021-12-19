@@ -20,7 +20,7 @@ class AppbarComponent extends Component {
                                className={i18next.languages[0] === 'nl' ? 'active' : ''}>nl</a>
                         </div>
                         {this.props.navigationOpen ?
-                            <span className="material-icons menu-button" onClick={this.closeNav}>arrow_right</span> :
+                            <div><span className="material-icons menu-button" onClick={this.closeNav}>arrow_right</span></div> :
                             <span className="material-icons menu-button" onClick={this.openNav}>menu</span>}
                     </div>
                 </div>

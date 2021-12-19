@@ -14,7 +14,7 @@
       "title": "Frontend webdevelopment"
     },
     "app_dev": {
-      "title": "App development"
+      "title": "Mobile app development"
     },
     "algo": {
       "title": "Algorithms & Datastructures",
@@ -77,6 +77,13 @@
       "pFourOne": "The website is hosted on AWS Elastic Beanstalk in a docker environment, and is currently available on ",
       "pFourTwo": "."
     },
+    "mapDrawing": {
+      "pOne": "The goal of this project was to find drawings of figures on a map, so that you could run, or bike, with a gps device to make this drawing. (Like the famous hype on Strava)",
+      "pTwo": "The entire code was written in Python, and made use of edge detection, and several similarity algorithms to find different figures on a map. Of course the success of the algorithm depended entirely on the given figure and map."
+    },
+    "rayTracer": {
+      "pOne": "In this project I built a ray tracer, using C++. With this project, I learnt a lot about meshes, multi-processing and C++."
+    },
     "stratvision": {
       "pOne": "As a final project in my bachelor studies, I built a webapplication for Stratvision. Stratvision is a businessgame that is played in teams of international students.",
       "pTwo": "The goal of the project was to make the entire game editable by people without any programming knowledge. As a solution to this problem I invented the node-editor you can see in the picture above. The node-editor consists of different types of nodes who allow you to build the logic for an entire businessgame, all from your browser.",
@@ -119,7 +126,7 @@
         "description": "Built two mobile applications. One for event-organizers for scanning tickets at entrances, and one for customers for buying tickets."
       },
       "riskconcile": {
-        "date": "March 2021 - September 2021",
+        "date": "March 2021 - December 2021",
         "description": "As a full stack developer I am responsible for lots of different applications in the front-end and backend."
       }
     },

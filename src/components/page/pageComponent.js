@@ -17,6 +17,8 @@ import CnbComponent from "../projects/projects/cnbComponent";
 import AbcCooking2Component from "../projects/projects/abcCooking2Component";
 import StratvisionComponent from "../projects/projects/stratvisionComponent";
 import ScrabbleComponent from "../projects/projects/scrabble/scrabbleComponent";
+import MapDrawingComponent from "../projects/projects/mapDrawingComponent";
+import RayTracerComponent from "../projects/projects/RayTracerComponent";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -58,23 +60,28 @@ class PageComponent extends Component {
                             <Route exact path="/abc-cooking-mobile">
                                 <AbcCooking2Component/>
                             </Route>
+                            <Route exact path="/map-drawing">
+                                <MapDrawingComponent/>
+                            </Route>
                             <Route exact path="/novem">
                                 <NovemComponent/>
                             </Route>
-                            <Route exact path="/ticketgang">
-                                <TicketgangComponent/>
+                            <Route exact path="/ray-tracer">
+                                <RayTracerComponent/>
                             </Route>
-                            {/*I'll keep this here for the moment, but no visible link remains*/}
                             <Route exact path="/stars">
                                 <StarsComponent/>
                             </Route>
                             <Route exact path="/scrabble">
                                 <ScrabbleComponent dimensions={15}/>
                             </Route>
+                            <Route exact path="/ticketgang">
+                                <TicketgangComponent/>
+                            </Route>
                             <Route path="">
                                 <AboutComponent/>
-                                <CompetencesComponent/>
                                 <ProjectsComponent/>
+                                <CompetencesComponent/>
                             </Route>
                         </Switch>
                     </section>

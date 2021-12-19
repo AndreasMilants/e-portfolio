@@ -77,6 +77,13 @@
       "pFourOne": "Le site Web est hébergé sur AWS Elastic Beanstalk dans un environnement docker. Elle est disponible sur ",
       "pFourTwo": "."
     },
+    "mapDrawing": {
+      "pOne": "Le but de ce projet était de trouver des dessins sur une carte, afin que vous puissiez courir, ou faire du vélo, avec un appareil GPS pour faire ce dessin. (Comme le Strava hype)",
+      "pTwo": "L'ensemble du code a été écrit en Python et a utilisé la détection des contours et plusieurs algorithmes de similitude pour trouver différentes figures sur une carte. Bien sûr, le succès de l'algorithme dépendait entièrement de la figure et de la carte données."
+    },
+    "rayTracer": {
+      "pOne": "Dans ce projet, j'ai construit un ray tracer, en utilisant C++. Avec ce projet, j'ai beaucoup appris sur les 'mesh', multi-processing et C++."
+    },
     "stratvision": {
       "pOne": "En tant que projet final dans la dernière année de mon Bachelor, j'ai construit une application web pour Stratvision. Stratvision est un jeu d'entreprise qui se joue en équipes d'étudiants internationaux.",
       "pTwo": "Le but du projet était de rendre l'ensemble du jeu modifiable par des personnes sans connaissance en programmation. Pour résoudre ce problème, j'ai inventé le 'node-editor' que vous pouvez voir dans l'image ci-dessus. Le node-editor se compose de différents types de nœuds qui vous permettent de créer la logique d'un jeu d'entreprise entier à partir de votre navigateur.",
@@ -119,7 +126,7 @@
         "description": "Responsable de la création de 2 applications mobiles. Un pour les organisateurs d'événements pour scanner les billets et un pour les clients pour acheter des billets."
       },
       "riskconcile": {
-        "date": "Mars 2021 - Septembre 2021",
+        "date": "Mars 2021 - Décembre 2021",
         "description": "En tant que développeur full stack, je suis responsable de nombreuses applications différentes dans le front-end et le backend."
       }
     },

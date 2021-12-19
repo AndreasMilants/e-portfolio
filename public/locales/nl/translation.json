@@ -14,7 +14,7 @@
       "title": "Frontend webontwikkeling"
     },
     "app_dev": {
-      "title": "App ontwikkeling"
+      "title": "Mobiele app ontwikkeling"
     },
     "algo": {
       "title": "Algoritmen & Datastructuren",
@@ -77,6 +77,13 @@
       "pFourOne": "De website wordt gehost op AWS Elastic Beanstalk in een docker-omgeving. Ze is beschikbaar op ",
       "pFourTwo": "."
     },
+    "mapDrawing": {
+      "pOne": "Het doel van dit project was om tekeningen van figuren te vinden op een kaart, zodat je deze weg kan lopen, of fietsen om een tekening te maken met je gps. (Zoals de bekende Strava-hype)",
+      "pTwo": "Alle code is geschreven in Python, en ze maakt gebruik van edge-detection en enkele similarity-algoritmen om de figuren te vinden op de kaart. Uiteraard hangt het succes van het algoritme volledig af van de input kaart en figuur."
+    },
+    "rayTracer": {
+      "pOne": "In dit project bouwde ik een ray-tracer met C++. Met dit project leerde ik veel over meshes, multi-processing en C++."
+    },
     "stratvision": {
       "pOne": "Als eindproject in mijn bachelorstudies maakte ik een webapplicatie voor Stratvision. Stratvision is een businessgame, die gespeeld wordt in teams van internationale studenten.",
       "pTwo": "Het doel van het project was om zoveel mogelijk functionaliteiten aanpasbaar te maken door mensen zonder technische kennis. Om dit probleem aan te pakken, bedacht ik de node-editor die je in de foto ziet. De node-editor bestaat uit verschillende type nodes die je in staat stellen een hele businessgame te ontwikkelen vanuit je browser.",
@@ -119,7 +126,7 @@
         "description": "Verantwoordelijk voor het bouwen van 2 mobiele applicaties. Eén voor organisatoren van evenementen om tickets te scannen, en één voor klanten om tickets te kopen."
       },
       "riskconcile": {
-        "date": "Maart 2021 - September 2021",
+        "date": "Maart 2021 - December 2021",
         "description": "Als een full stack developer ben ik verantwoordelijk voor verschillende applicaties in zowel de front-end als backend."
       }
     },
