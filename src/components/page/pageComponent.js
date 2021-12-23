@@ -19,6 +19,7 @@ import StratvisionComponent from "../projects/projects/stratvisionComponent";
 import ScrabbleComponent from "../projects/projects/scrabble/scrabbleComponent";
 import MapDrawingComponent from "../projects/projects/mapDrawingComponent";
 import RayTracerComponent from "../projects/projects/RayTracerComponent";
+import SnakeGameComponent from "../projects/projects/snake/SnakeGameComponent";
 
 class PageComponent extends Component {
     constructor(props) {
@@ -44,6 +45,9 @@ class PageComponent extends Component {
                             </Route>
                             <Route exact path="/snake">
                                 <SnakeComponent/>
+                            </Route>
+                            <Route exact path="/snake-ai">
+                                <SnakeGameComponent/>
                             </Route>
                             <Route exact path="/stratvision">
                                 <StratvisionComponent/>

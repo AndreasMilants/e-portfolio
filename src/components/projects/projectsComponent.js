@@ -28,16 +28,16 @@ class ProjectsComponent extends Component {
                 title: "ABC Cooking",
             },
             {
-                link: "/scrabble",
-                img: "/scrabble/scrabble.png",
-                title: "Scrabble solver",
+                link: "/snake-ai",
+                video: "/snake_ai/snake_ai.mov",
+                title: "Snake AI interactive",
                 className: "two-cols",
                 interactive: true
             },
             {
-                link: "/snake",
-                video: "/snake/snake_small.mov",
-                title: "Snake AI",
+                link: "/ray-tracer",
+                img: "/ray_tracer/dalmatian.png",
+                title: "Ray tracing",
             },
             {
                 link: "/abc-cooking-mobile",
@@ -55,20 +55,21 @@ class ProjectsComponent extends Component {
                 title: "TicketGang",
             },
             {
+                link: "/scrabble",
+                img: "/scrabble/scrabble.png",
+                title: "Scrabble solver",
+                className: "two-cols",
+                interactive: true
+            },
+            {
                 link: "/map-drawing",
                 img: "/map_drawing/cupcake.gif",
                 title: "Map drawing",
-                className: "two-cols",
             },
             {
-                link: "/ray-tracer",
-                img: "/ray_tracer/dalmatian.png",
-                title: "Ray tracing",
-            },
-            {
-                link: "/stars",
-                img: "/stars4everyone/stars.png",
-                title: "Stars 4 Everyone",
+                link: "/snake",
+                video: "/snake/snake_small.mov",
+                title: "Snake AI",
             },
         ];
 
@@ -97,11 +98,13 @@ class ProjectsComponent extends Component {
 
     getMedia({img, video, title}) {
         if (img) {
-            return <div className="img" style={{backgroundImage: "url('" + img + "')"}}></div>;
+            return <div className="img" style={{backgroundImage: "url('" + process.env.PUBLIC_URL + img + "')"}}></div>;
         }
         return <React.Fragment>
-            <div className="img"></div>
-            <video src={process.env.PUBLIC_URL + video} autoPlay muted loop/>
+            <div className="img-container">
+                <div className="img"></div>
+                <video src={process.env.PUBLIC_URL + video} autoPlay muted loop/>
+            </div>
         </React.Fragment>;
 
     }
