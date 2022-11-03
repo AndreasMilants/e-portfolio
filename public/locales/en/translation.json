@@ -3,7 +3,7 @@
     "title": "About me",
     "pOne": "I am Andreas Milants and I study Applied Information Technology at KU Leuven.",
     "pTwo": "Most of my spare time is spent making lots of different applications. These range from working with distributed systems to playing with Neural Networks.",
-    "pThree": "I also do a fair bit of sports. I play football at FC Binkom, and enjoy a bit of running from time to time."
+    "pThree": "I also do a fair bit of sports. I play football at FC Binkom, and am quite addicted to running."
   },
   "competences": {
     "title": "Skills",
@@ -109,7 +109,7 @@
       "title": "Education",
       "kul_ti": {
         "title": "Master in Applied Information Technology",
-        "extra": "Transition year (preparatory program)"
+        "extra": "Transition year (87%) + Master, Specialisation AI"
       },
       "ti": {
         "title": "Bachelor in Applied Information Technology"
@@ -126,8 +126,8 @@
         "description": "Built two mobile applications. One for event-organizers for scanning tickets at entrances, and one for customers for buying tickets."
       },
       "riskconcile": {
-        "date": "March 2021 - December 2021",
-        "description": "As a full stack developer I am responsible for lots of different applications in the front-end and backend."
+        "date": "March 2021 - September 2022",
+        "description": "As a full stack developer I was responsible for lots of different applications in the front-end and backend."
       }
     },
     "ex_cur": {

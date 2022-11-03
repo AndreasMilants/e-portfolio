@@ -8,9 +8,9 @@ class MainComponent extends Component {
             {
                 title: t("resume.edu.kul_ti.title"),
                 institution: "KU Leuven",
-                date: "2021 - 2022",
+                date: "2021 - 2023",
                 extra: t("resume.edu.kul_ti.extra"),
-                skills: ["Prolog", "Haskell"]
+                skills: ["Prolog", "Haskell", "NLP", "Neural Networks", "Google Cloud"]
             },
             {
                 title: t("resume.edu.ti.title"),

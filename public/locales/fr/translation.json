@@ -3,7 +3,7 @@
     "title": "À propos de moi",
     "pOne": "Je m'appelle Andreas Milants et je suis étudiant en informatique appliquée à KU Leuven.",
     "pTwo": "Dans mon temps libre, je passe la plupart de mon temps à créer différentes applications. Celles-ci vont du travail avec des systèmes distribués au développement de réseaux de neurones.",
-    "pThree": "Je fais aussi beaucoup de sport. Je joue au football au FC Binkom et j'aime courir un peu de temps en temps."
+    "pThree": "Je fais aussi beaucoup de sport. Je joue au football au FC Binkom et j'aime courir."
   },
   "competences": {
     "title": "Compétences",
@@ -109,7 +109,7 @@
       "title": "Formation",
       "kul_ti": {
         "title": "Master Technologie de l'Information Appliquée",
-        "extra": "Année de transition (programme préparatoire)"
+        "extra": "Année de transition (87%) + Master"
       },
       "ti": {
         "title": "Diplôme de bachelier professionnel en informatique appliquée"
@@ -126,8 +126,8 @@
         "description": "Responsable de la création de 2 applications mobiles. Un pour les organisateurs d'événements pour scanner les billets et un pour les clients pour acheter des billets."
       },
       "riskconcile": {
-        "date": "Mars 2021 - Décembre 2021",
-        "description": "En tant que développeur full stack, je suis responsable de nombreuses applications différentes dans le front-end et le backend."
+        "date": "Mars 2021 - Septembre 2022",
+        "description": "En tant que développeur full stack, j' étais responsable de nombreuses applications différentes dans le front-end et le backend."
       }
     },
     "ex_cur": {

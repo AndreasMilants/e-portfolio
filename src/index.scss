@@ -541,14 +541,15 @@ a .material-icons {
       opacity: 0;
       height: 0;
       transition: .3s ease opacity, .3s ease left;
-      padding: 1rem 0;
-      padding-bottom: 4rem;
+      padding: 1rem 0 4rem 0;
+      pointer-events: none;
     }
 
     .active {
       opacity: 1;
       height: auto;
       left: 0;
+      pointer-events: auto;
     }
 
     .right {
@@ -716,6 +717,24 @@ a .material-icons {
     }
   }
 
+  .game {
+    svg {
+      background-color: #FFFFFF;
+
+      .snake {
+        fill: $secondary_color;
+
+        &.head {
+          fill: $primary_color;
+        }
+      }
+
+      .food {
+        fill: #40a0a0;
+      }
+    }
+  }
+
   .snake-games {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -786,22 +805,6 @@ a .material-icons {
             margin-right: 5px;
             font-weight: bold;
           }
-        }
-      }
-
-      svg {
-        background-color: #FFFFFF;
-
-        .snake {
-          fill: $secondary_color;
-
-          &.head {
-            fill: $primary_color;
-          }
-        }
-
-        .food {
-          fill: #40a0a0;
         }
       }
     }

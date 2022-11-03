@@ -2,21 +2,19 @@ import React, {Component} from "react";
 import {withTranslation} from "react-i18next";
 import {UnSupervised} from "./unSupervised";
 import Network from "./neuralNets";
-import {SmellAndFeel} from "./senseFuncs";
+import {SmellAndFeel, Surrounding} from "./senseFuncs";
 import {
-    Box,
     Button,
     IconButton,
     MobileStepper,
-    Paper,
     Slider,
     Step,
     StepLabel,
     Stepper,
-    Typography
 } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import {Point} from "./math";
 
 function KeyboardArrowRight() {
     return null;
@@ -30,7 +28,7 @@ class SnakeGameComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeStep: 0,
+            activeStep: 1,
             games: {
                 manager: new UnSupervised(new Network([6, 3]), 10, 3, 20, new SmellAndFeel()),
                 speed: 100,
@@ -38,7 +36,7 @@ class SnakeGameComponent extends Component {
             },
             setUp: {
                 type: "unsupervised",
-                senseFunc: "smellAndFeel",
+                senseFunc: new SmellAndFeel(),
                 layers: [],
                 generationSize: 8,
                 gamesPerGen: 3,
@@ -89,7 +87,8 @@ class SnakeGameComponent extends Component {
             <div className="stepper-show">
                 <div className={activeStep === 0 ? "active type" : "type"}>
                     <button className="card" onClick={this.unsupervised}>
-                        <div className="img" style={{backgroundImage: "url('" + process.env.PUBLIC_URL + "snake_ai/snake_ai.png"}}></div>
+                        <div className="img"
+                             style={{backgroundImage: "url('" + process.env.PUBLIC_URL + "snake_ai/snake_ai.png"}}></div>
                         <h3>Unsupervised</h3>
                     </button>
                     <button className="card">
@@ -99,7 +98,10 @@ class SnakeGameComponent extends Component {
                     </button>
                 </div>
                 <div className={activeStep < 1 ? "right senses" : activeStep === 1 ? "active senses" : "senses"}>
-                    <button className="card" onClick={this.smellAndFeel}>
+                    <button className="card" onClick={this.smellAndFeel} style={{position: "relative"}}>
+                        <div style={{width: "50%"}} className="game">
+
+                        </div>
                         <h3>Smell and feel</h3>
                         <p>
                             In this version, the snake will know what direction the food is in. It can 'smell' the food.
@@ -112,9 +114,27 @@ class SnakeGameComponent extends Component {
                             availability of the square next to the head of the snake in some direction.
                         </p>
                     </button>
-                    <button className="card">
-                        <h3>Coming soon</h3>
-                        <p>Other input functions will be added later.</p>
+                    <button className="card" onClick={this.surroundAndSmell}>
+                        <h3>Surround view and smell</h3>
+                        <p>In this version, the snake is able to see 2 squares in every direction from its head. It also
+                            knows in what direction the food is.</p>
+                        <p className="game">
+                            Technically the snake should be able to get higher scores with enough training. But since
+                            the input is so much bigger, it will take a lot longer to train.
+                            <svg viewBox={"0 0 10 10"} width={"50%"}>
+                                {
+                                    [new Point(1, 9), new Point(2, 9), new Point(3, 9), new Point(4, 9)].map((p, i) =>
+                                        <rect
+                                            className={i === 3 ? "snake head" : "snake"}
+                                            key={"" + p.x + "," + p.y} x={p.x} y={p.y} width="1"
+                                            height="1"/>)
+                                }
+                                {
+                                    <circle className="food" cx={6.5} cy={6.5} r={.35}
+                                            width="1" height="1"/>
+                                }
+                            </svg>
+                        </p>
                     </button>
                 </div>
                 <div className={activeStep < 2 ? "right network" : activeStep === 2 ? "active network" : "network"}>
@@ -145,7 +165,8 @@ class SnakeGameComponent extends Component {
                     </div>
                     <div className="the-network">
                         <div className="layer input">
-                            {[...Array(6)].map((_, i) => <div key={i} className="node"></div>)}
+                            {[...Array(this.state.setUp.senseFunc.inputSize)].map((_, i) => <div key={i}
+                                                                                                 className="node"></div>)}
                         </div>
                         {
                             this.state.setUp.layers.map((l, i) => <div key={i} className="layer">
@@ -187,7 +208,8 @@ class SnakeGameComponent extends Component {
                 </div>
 
             </div>
-        </article>;
+        </article>
+            ;
     }
 
     addToLayer = (layer, amount) => {
@@ -199,7 +221,6 @@ class SnakeGameComponent extends Component {
     addLayer = () => {
         let layers = this.state.setUp.layers;
         layers.push(4);
-        console.log(layers);
         this.setState({...this.state, setUp: {...this.state.setUp, layers}});
     }
 
@@ -233,13 +254,21 @@ class SnakeGameComponent extends Component {
         this.setState({
             ...this.state,
             activeStep: this.state.activeStep + 1,
-            setUp: {...this.state.setUp, senseFunc: "smellAndFeel"}
+            setUp: {...this.state.setUp, senseFunc: new SmellAndFeel()}
+        });
+    }
+
+    surroundAndSmell = () => {
+        this.setState({
+            ...this.state,
+            activeStep: this.state.activeStep + 1,
+            setUp: {...this.state.setUp, senseFunc: new Surrounding()}
         });
     }
 
     next = () => {
         if (this.state.activeStep === this.getSteps().length - 2) {
-            let manager = new UnSupervised(new Network([6, ...this.state.setUp.layers, 3]), this.state.setUp.generationSize, this.state.setUp.gamesPerGen, this.state.setUp.fieldSize, new SmellAndFeel());
+            let manager = new UnSupervised(new Network([this.state.setUp.senseFunc.inputSize, ...this.state.setUp.layers, 3]), this.state.setUp.generationSize, this.state.setUp.gamesPerGen, this.state.setUp.fieldSize, this.state.setUp.senseFunc);
             this.setState({
                 ...this.state,
                 activeStep: this.state.activeStep + 1,
@@ -376,7 +405,8 @@ class SingleGameComponent extends Component {
                                                height="1"/>)
             }
             {
-                <circle className="food" cx={game.food.x + .5} cy={game.food.y + .5} r={.35} width="1" height="1"/>
+                <circle className="food" cx={game.food.x + .5} cy={game.food.y + .5} r={.35} width="1"
+                        height="1"/>
             }
         </svg>;
     }

@@ -1,6 +1,7 @@
 import Game from "./game";
 import {highestIndex} from "./math";
 import Network from "./neuralNets";
+import {Surrounding} from "./senseFuncs";
 
 class NetworkPlayer {
     constructor(network, gamesToPlay, gameSize, senseFunc) {
