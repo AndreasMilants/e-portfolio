@@ -63,6 +63,10 @@ class ResumeSidebarComponent extends Component {
                         })}
                     </ul>
                 </section>
+                <section>
+                    <h4>{t("resume.about.title")}</h4>
+                    <p style={{textAlign: "justify", margin: ".3rem"}}>{t("resume.about.text")}</p>
+                </section>
             </section>
         );
     }

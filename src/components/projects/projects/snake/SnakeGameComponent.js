@@ -11,9 +11,7 @@ import {
     Step,
     StepLabel,
     Stepper,
-} from "@mui/material";
-import AddIcon from '@mui/icons-material/Add';
-import RemoveIcon from '@mui/icons-material/Remove';
+} from "@material-ui/core";
 import {Point} from "./math";
 
 function KeyboardArrowRight() {
@@ -171,10 +169,10 @@ class SnakeGameComponent extends Component {
                         {
                             this.state.setUp.layers.map((l, i) => <div key={i} className="layer">
                                 <IconButton disabled={l > 10}
-                                            onClick={_ => this.addToLayer(i, 1)}><AddIcon/></IconButton>
+                                            onClick={_ => this.addToLayer(i, 1)}><span className="material-icons" style={{cursor: "pointer"}}>add</span></IconButton>
                                 {[...Array(l)].map((_, i) => <div key={i} className="node"></div>)}
                                 <IconButton disabled={l < 3}
-                                            onClick={_ => this.addToLayer(i, -1)}><RemoveIcon/></IconButton>
+                                            onClick={_ => this.addToLayer(i, -1)}><span className="material-icons" style={{cursor: "pointer"}}>remove</span></IconButton>
                             </div>)
                         }
                         <div className="layer output">
@@ -286,6 +284,8 @@ class SnakeGameComponent extends Component {
     }
 
     updateGames = (field, value) => {
+        console.log(field);
+        console.log(value);
         let games = {...this.state.games};
         games[field] = value;
         this.setState({...this.state, games});
@@ -381,7 +381,7 @@ class PlayControlComponent extends Component {
                             min={10}
                             max={100}
                             value={this.props.speed}
-                            onChange={e => this.props.updateGames("speed", parseInt(e.target.value))}/>
+                            onChange={(e, newVal) => this.props.updateGames("speed", newVal)}/>
                 </div>
                 <div className="play-buttons">
                     {this.props.playing ?

@@ -160,6 +160,10 @@
       "en": "English",
       "fr": "French"
     },
+    "about": {
+      "title": "About me",
+      "text": "In my free time I play football, and go running a lot. I love running a marathon or ultra-marathon from time to time."
+    },
     "progr_lang": {
       "title": "Programming Languages"
     },

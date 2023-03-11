@@ -160,6 +160,10 @@
       "en": "Anglais",
       "fr": "Français"
     },
+    "about": {
+      "title": "À propos de moi",
+      "text": "Pendant mon temps libre, je joue au football, et je suis surtout un grand fan de courir. Mon activité préférée est donc de courir des marathons ou des ultra-marathons."
+    },
     "progr_lang": {
       "title": "Langages de programmation"
     },
