@@ -10,16 +10,14 @@ class MainComponent extends Component {
                 institution: "KU Leuven",
                 date: "2021 - 2023",
                 extra: t("resume.edu.kul_ti.extra"),
-                skills: ["Prolog", "Haskell", "NLP", "Neural Networks", "Google Cloud"]
+                skills: ["Prolog", "Haskell", "NLP", "Neural Networks", "Google Cloud", "Distributed Systems"]
             },
             {
                 title: t("resume.edu.ti.title"),
                 institution: "UC Leuven-Limburg",
                 date: "2018 - 2021",
                 extra: "Magna cum laude",
-                skills: ["Java", "Python", "JavaScript", "C#", "C++", "Elixir", 'Dart', "Spring", "Phoenix", "Flutter",
-                    "PostgreSQL", "Windows", "Linux", t("resume.skills.prot"), t("resume.skills.alg"),
-                    t("resume.skills.datas")]
+                skills: ["Java", "JavaScript", "Spring", "PostgreSQL", "Windows", "Linux", t("resume.skills.prot")]
             },
             {
                 title: t("resume.edu.fys.title"),
@@ -34,7 +32,7 @@ class MainComponent extends Component {
                 title: "RiskConcile",
                 date: t("resume.work.riskconcile.date"),
                 description: t("resume.work.riskconcile.description"),
-                skills: ["Python", "Django", "Vue", "AWS", "Plotly Dash", "Pandas", t('resume.skills.stock')]
+                skills: ["Python", "Django", "Vue", "AWS", "Plotly Dash", "Pandas", t('resume.skills.stock'), t('resume.skills.data_visualisation')]
             },
             {
                 title: "TicketGang",

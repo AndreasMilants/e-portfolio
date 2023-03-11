@@ -21,9 +21,9 @@ class ResumeSidebarComponent extends Component {
         const frameworks = [
             {name: "Django", level: 5},
             {name: "Vue", level: 4},
+            {name: "FastAPI", level: 3},
             {name: "Flutter", level: 3},
             {name: "React JS", level: 3},
-            {name: "Spring Boot", level: 2},
         ];
         return (
             <section className="side-bar">

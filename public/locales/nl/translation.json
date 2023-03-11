@@ -103,13 +103,14 @@
       "math": "Wiskunde",
       "teach": "Lesgeven",
       "leader": "Leiderschap",
-      "stock": "De beurs"
+      "stock": "De beurs",
+      "data_visualisation": "Datavisualisatie"
     },
     "edu": {
       "title": "Opleiding",
       "kul_ti": {
         "title": "Master in de Toegepaste Informatica",
-        "extra": "Schakeljaar (87%) + Master, Specialisatie AI"
+        "extra": "Schakeljaar (87% gem.) + Master, Specialisatie AI"
       },
       "ti": {
         "title": "Bachelor in de Toegepaste Informatica"
@@ -134,7 +135,7 @@
       "title": "Buitenschoolse activiteiten",
       "ibm_hack": {
         "date": "Oktober 2019",
-        "description": "Deelgenomen aan een hackathon, georganiseerd door IBM.  De business case was om een standalone app te maken voor de Apple Watch. We hebben een app gebouwd waarbij je kon spreken tegen je horloge om ingrediënten voor een gerecht te ontdekken, live instructies kreeg tijdens het koken en online ingrediënten kon bestellen."
+        "description": "Deelgenomen aan een hackathon, georganiseerd door IBM.  De business case was om een standalone app te maken voor de Apple Watch. We hebben een app gebouwd waarbij je kon: spreken tegen je horloge om ingrediënten voor een gerecht te ontdekken, live instructies krijgen tijdens het koken, en online ingrediënten bestellen."
       },
       "progr_comp": {
         "title": "Vlaamse Programmeerwedstrijd",

@@ -103,13 +103,14 @@
       "math": "Mathématiques",
       "teach": "Enseignement",
       "leader": "Direction",
-      "stock": "March financier"
+      "stock": "March financier",
+      "data_visualisation": "Visualisation des données"
     },
     "edu": {
       "title": "Formation",
       "kul_ti": {
         "title": "Master Technologie de l'Information Appliquée",
-        "extra": "Année de transition (87%) + Master"
+        "extra": "Année de transition (87% moy.) + Master"
       },
       "ti": {
         "title": "Diplôme de bachelier professionnel en informatique appliquée"

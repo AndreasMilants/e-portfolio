@@ -103,13 +103,14 @@
       "math": "Mathematics",
       "teach": "Teaching",
       "leader": "Leadership",
-      "stock": "Stock Market"
+      "stock": "Stock Market",
+      "data_visualisation": "Data visualization"
     },
     "edu": {
       "title": "Education",
       "kul_ti": {
         "title": "Master in Applied Information Technology",
-        "extra": "Transition year (87%) + Master, Specialisation AI"
+        "extra": "Transition year (87% avg.) + Master, Specialisation AI"
       },
       "ti": {
         "title": "Bachelor in Applied Information Technology"
